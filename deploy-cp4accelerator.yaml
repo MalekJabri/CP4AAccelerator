@@ -4,8 +4,8 @@ metadata:
   name: cp4accelerator-cm
 data:
   connection.properties: |
-    apiref=https://api.apps.ocp-270006qgy1-idrw.cloud.techzone.ibm.com:6443/
-    namespace=cp4ba-starter
+    apiref=${url-10}
+    namespace=${project}
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: cp4accelerator
-          image: docker.io/malekibm/cp4baacceleratoramd:1.0
+          image: docker.io/malekibm/cp4baacceleratoramd:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
@@ -44,7 +44,7 @@ spec:
             name: cp4accelerator-cm
         - name: secret-volume
           secret:
-            secretName: robot-dockercfg-j2zcs
+            secretName: ${secret-robot}
 ---
 kind: Service
 apiVersion: v1
@@ -63,7 +63,7 @@ apiVersion: route.openshift.io/v1
 metadata:
   name: cp4accelerator-route
 spec:
-  host: cp4accelerator.apps.ocp-270006qgy1-idrw.cloud.techzone.ibm.com
+  host: cp4accelerator.${hostname}
   to:
     kind: Service
     name: cp4accelerator-service
