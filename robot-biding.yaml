@@ -1,12 +1,6 @@
-kind: ClusterRoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
-metadata:
-  name: robot-binding
+kind: RoleBinding
+metadata: {name: 'system:openshift:scc:privileged', namespace: cp4ba-starter}
+roleRef: {apiGroup: rbac.authorization.k8s.io, kind: ClusterRole, name: 'system:openshift:scc:privileged'}
 subjects:
-  - kind: ServiceAccount
-    name: robot
-    namespace: cp4ba-starter
-roleRef:
-  apiGroup: rbac.authorization.k8s.io
-  kind: ClusterRole
-  name: robot-mj-role
+- {kind: ServiceAccount, name: robot, namespace: cp4ba-starter}
