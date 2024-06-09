@@ -1,0 +1,19 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata: {name: 'cpAccelerator-scc', namespace: cp4ba-starter}
+roleRef: {apiGroup: rbac.authorization.k8s.io, kind: ClusterRole, name: 'system:openshift:scc:privileged'}
+subjects:
+- {kind: ServiceAccount, name: cpAccelerator-sa, namespace: cp4ba-starter}
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: cpAccelerator-binding
+subjects:
+  - kind: ServiceAccount
+    name: cpAccelerator-sa
+    namespace: cp4ba-starter
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cpAccelerator-mj-role
