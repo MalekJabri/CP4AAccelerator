@@ -1,0 +1,63 @@
+apiVersion: tekton.dev/v1
+kind: Pipeline
+metadata:
+  name: deploy-accelerator
+  namespace: default
+spec:
+  params:
+    - default: cp4ba-starter
+      description: CP4BA Project Name
+      name: namespace
+      type: string
+    - default: starter
+      name: mode
+      type: string
+  tasks:
+    - name: deploy-accelerator
+      params:
+        - name: namespace
+          value: $(params.namespace)
+      taskSpec:
+        metadata: {}
+        params:
+          - name: namespace
+            type: string
+        spec: null
+        steps:
+          - computeResources: {}
+            image: 'quay.io/ibmtz/ibm-pak-ubi:latest'
+            name: git-clone-step
+            script: |
+              curl -s https://raw.githubusercontent.com/MalekJabri/CP4AAccelerator/main/deploy-cp4accelerator.yaml > accelerator.yaml  
+              yq -e '.metadata.namespace = "$(params.namespace)"' -i accelerator.yaml  
+              oc apply -f accelerator.yaml
+
+              curl -s https://raw.githubusercontent.com/MalekJabri/CP4AAccelerator/main/RoleBiding.yaml > rolebiding.yaml  
+              yq -e '.subjects[0].namespace ="$(params.namespace)"' -i rolebiding.yaml  
+              oc apply -f rolebiding.yaml
+        workspaces:
+          - name: ws
+      workspaces:
+        - name: ws
+          workspace: ws
+    - name: create-config-accelerator
+      params:
+        - name: SCRIPT
+          value: |
+            oc apply -f - <<EOF 
+            apiVersion: v1
+            kind: ConfigMap
+            metadata:
+              name: cp4accelerator-cm
+              namespace: $(params.namespace)
+            data:
+              connection.properties: |
+                namespace=$(params.namespace)
+                masterUrl=http
+                mode=$(params.mode)
+            EOF
+      taskRef:
+        kind: Task
+        name: ibm-pak
+  workspaces:
+    - name: ws
