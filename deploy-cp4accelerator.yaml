@@ -4,13 +4,6 @@ metadata:
   name: cpaccelerator-sa
   namespace: cp4ba-starter 
 ---
-apiVersion: rbac.authorization.k8s.io/v1
-kind: ClusterRoleBinding
-metadata: { name: cpaccelerator-scc }
-roleRef: { apiGroup: rbac.authorization.k8s.io, kind: ClusterRole, name: cluster-admin }
-subjects:
-  - { kind: ServiceAccount, name: cpaccelerator-sa, namespace: cp4ba-starter }
----
 apiVersion: v1
 kind: ConfigMap
 metadata:
