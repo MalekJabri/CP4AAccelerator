@@ -14,6 +14,8 @@ spec:
       type: string
   tasks:
     - name: deploy-accelerator
+      runAfter:
+          - create-config-accelerator
       params:
         - name: namespace
           value: $(params.namespace)
@@ -41,23 +43,42 @@ spec:
         - name: ws
           workspace: ws
     - name: create-config-accelerator
+      runAfter:
+          - check-project
       params:
         - name: SCRIPT
           value: |
-            oc apply -f - <<EOF 
-            apiVersion: v1
-            kind: ConfigMap
-            metadata:
+             oc apply -f - <<EOF 
+             apiVersion: v1
+             kind: ConfigMap
+             metadata:
               name: cp4accelerator-cm
               namespace: $(params.namespace)
-            data:
-              connection.properties: |
+             data:
+               connection.properties: |
                 namespace=$(params.namespace)
                 masterUrl=http
                 mode=$(params.mode)
-            EOF
+             EOF
       taskRef:
         kind: Task
         name: ibm-pak
+    - name: check-project
+      params:
+        - name: SCRIPT
+          value: |
+             # Check for the project existence up to 5 times
+                  for i in {1..5}; do
+                    if oc get project "$(params.namespace)" &> /dev/null; then
+                      echo "Project '$(params.namespace)' exists."
+                      exit 0
+                    else
+                      echo "Attempt $i: Project '$(params.namespace)' does not exist. Retrying in 100 seconds..."
+                      sleep 100
+                    fi
+                  done
+      taskRef:
+        kind: Task
+        name: ibm-pak  
   workspaces:
     - name: ws
