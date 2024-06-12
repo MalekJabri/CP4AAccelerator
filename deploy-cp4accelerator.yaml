@@ -2,18 +2,7 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: cpaccelerator-sa
-  namespace: cp4ba-starter 
----
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: cp4accelerator-cm
   namespace: cp4ba-starter
-data:
-  connection.properties: |
-    namespace=cp4ba-starter
-    masterUrl=http
-    mode=starter
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
