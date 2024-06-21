@@ -1,0 +1,54 @@
+apiVersion: batch/v1
+kind: Job
+metadata: {generateName: client-onboarding-deploy-, namespace: cp4ba-starter}
+spec:
+  template:
+    metadata:
+      labels: {app: client-onboarding-deploy}
+    spec:
+      serviceAccountName: cb4ba-deployment-tool-sa
+      volumes:
+      - name: log-pvc
+        persistentVolumeClaim: {claimName: cp4a-shared-log-pvc}
+      containers:
+      - name: client-onboarding-deploy
+        image: ubi9/ubi:9.3
+        command: [/bin/bash]
+        args: [-c, ' currentowner=`ls -n -l ''$(LOG_DIR_BASE)/CaseInit.log'' | awk
+            ''NR==1 {print $3}''`; mkdir -p ''$(LOG_DIR)''; chown -R $currentowner
+            ''$(LOG_DIR_BASE_CO)''; mkdir /usr/client-onboarding; cd /usr/client-onboarding;
+            curl -sO https://download.java.net/java/GA/jdk9/9/binaries/openjdk-9_linux-x64_bin.tar.gz;
+            echo ''Downloaded OpenJDK 9''; tar -xf openjdk-9_linux-x64_bin.tar.gz;
+            ln -fs `pwd`/jdk-9/bin/java /usr/local/bin/java; curl -sO https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/ocp/latest/openshift-client-linux.tar.gz;
+            echo ''Downloaded OpenShift CLI''; tar -xzf openshift-client-linux.tar.gz;
+            ln -fs `pwd`/oc /usr/local/bin/oc; oc project $(NAMESPACE); deploymenttype=`oc
+            get icp4acluster -o json | grep -Po ''"olm_deployment_type":.*",'' | awk
+            -F'': \"|\",'' ''{print $2}''`; deploymentversion=`oc get icp4acluster
+            -o json | grep -Po ''"appVersion":.*",'' | awk -F'': "|",'' ''{print $2}''`;
+            curl -sLO https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/$deploymentversion/Deployment_Automation/deployClientOnboardingStarterParam.sh;
+            echo ''Downloaded client onboarding deploy sh file''; chmod u+x deployClientOnboardingStarterParam.sh;
+            ./deployClientOnboardingStarterParam.sh --ocls `oc whoami --show-server=true`
+            --oclt `oc whoami -t` --op ''$(LOG_DIR)'' --ns ''$(NAMESPACE)'' --cl ''$(configureLabs)''
+            --ewflbu ''$(enableWorkflowLabsForBusinessUsers)'' --rpau ''$(rpaBotExecutionUser)''
+            --rpas ''$(rpaServer)'' --pdmtoc ''$(printDetailedMessageToConsole)'';']
+        imagePullPolicy: IfNotPresent
+        env:
+        - name: PODNAME
+          valueFrom:
+            fieldRef: {fieldPath: metadata.name}
+        - name: NAMESPACE
+          valueFrom:
+            fieldRef: {fieldPath: metadata.namespace}
+        - {name: LOG_DIR_BASE, value: /logs/application}
+        - {name: LOG_DIR_BASE_CO, value: $(LOG_DIR_BASE)/client-onboarding}
+        - {name: LOG_DIR, value: $(LOG_DIR_BASE_CO)/$(PODNAME)}
+        - {name: ocpStorageClassForInternalMailServer, value: ocs-storagecluster-cephfs}
+        - {name: configureLabs, value: 'false'}
+        - {name: enableWorkflowLabsForBusinessUsers, value: 'false'}
+        - {name: rpaBotExecutionUser, value: cp4admin2}
+        - {name: rpaServer, value: 'https://rpa-server.com:1111'}
+        - {name: printDetailedMessageToConsole, value: 'false'}
+        volumeMounts:
+        - {name: log-pvc, mountPath: /logs/application}
+      restartPolicy: Never
+  backoffLimit: 2

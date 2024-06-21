@@ -1,0 +1,25 @@
+Agente de Seguros: Hola, habla Emily. Bienvenido a My Seguros Company. ¿Cómo puedo asistirle hoy?
+
+Cliente: Hola Emily, mi nombre es María López. Necesito presentar un reclamo por un incidente. Estuve involucrada en una colisión de un solo vehículo mientras conducía.
+
+Agente de Seguros: Lamento escuchar eso, María. Estoy aquí para ayudarle con el reclamo. ¿Puede proporcionarme su número de póliza?
+
+Cliente: Es 0987654321.
+
+Agente de Seguros: Gracias. Permítame recopilar algo de información. ¿Puede contarme más sobre el incidente?
+
+Cliente: Claro. Mi Honda Civic 2004 estuvo involucrado en una colisión trasera el 2 de agosto a la 1 PM en Madrid. No hubo heridos y había tres testigos en la escena. No se contactó a las autoridades, pero tengo un informe policial disponible.
+
+Agente de Seguros: Es útil tener un informe policial, María. ¿Hubo algún daño a la propiedad?
+
+Cliente: No, no hubo daños a la propiedad.
+
+Agente de Seguros: Excelente. ¿Puede decirme un poco más sobre la gravedad del incidente?
+
+Cliente: Fue una colisión menor, y el daño a mi vehículo también fue bastante leve.
+
+Agente de Seguros: Gracias por proporcionar esa información, María. Con base en la información que ha dado, voy a iniciar el proceso de reclamo para usted. Un representante de reclamos se comunicará con usted dentro de las próximas 24 horas para guiarle en los próximos pasos. Si surge algo más o tiene alguna otra pregunta, ¿tiene alguna duda sin resolver?
+
+Cliente: No, eso lo cubre todo. Gracias por su asistencia.
+
+Agente de Seguros: De nada, María. Cuídese, y esperamos que todo se resuelva sin problemas para usted.

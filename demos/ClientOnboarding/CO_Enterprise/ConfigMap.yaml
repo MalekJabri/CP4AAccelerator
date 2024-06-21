@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: client-onboarding-config
+  namespace: cp4ba
+data:
+  AddUsersToPlatform.json: |
+    {
+      "comment": "Specify an array of users that should be added to the LDAP including their roles that will be assigned when onboarded to the Cloud Pak. As below the user is member of the environments 'general users group'. Variables will be replaced with the correct values of the environment)",
+      "entities": [
+        {
+          "enabled": true,
+          "type": "user",
+          "dn": "$(ldapUserQualifier)$henry$(ldapUserOrg)$",
+          "cn": "henry",
+          "sn": "henry",
+          "uid": "henry",
+          "userPassword": "pwd",
+          "homeDirectory": "/home/henry/",
+          "mail": "henry$(localMailDomain)$",
+          "members": [
+            {
+              "dn": "$(generalUsersGroupFull)$"
+            }
+          ],
+          "roles": [
+            "iaf-automation-admin",
+            "iaf-automation-developer"
+          ]
+        }
+      ]
+    }
