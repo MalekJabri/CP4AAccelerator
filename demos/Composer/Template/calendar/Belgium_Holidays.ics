@@ -1,0 +1,320 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendar Labs//Calendar 1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Belgium Holidays
+X-WR-TIMEZONE:Etc/GMT
+BEGIN:VEVENT
+SUMMARY:New Year's Day
+DTSTART:20190101
+DTEND:20190101
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/us/new-years-day.php to know more about New Year's Day. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb388f7a1582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Good Friday
+DTSTART:20190419
+DTEND:20190419
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/us/good-friday.php to know more about Good Friday. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb388fdd1582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Easter
+DTSTART:20190421
+DTEND:20190421
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/us/easter.php to know more about Easter. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3890341582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Easter Monday
+DTSTART:20190422
+DTEND:20190422
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/christian/easter-monday.php to know more about Easter Monday. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3890901582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Labor Day / May Day
+DTSTART:20190501
+DTEND:20190501
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/uk/may-day.php to know more about Labor Day / May Day. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3890e71582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ascension Day
+DTSTART:20190530
+DTEND:20190530
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/romania/ascension-day.php to know more about Ascension Day. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3891401582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Whit Sunday
+DTSTART:20190609
+DTEND:20190609
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/france/whit-sunday.php to know more about Whit Sunday. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3891971582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Whit Monday
+DTSTART:20190610
+DTEND:20190610
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/germany/pentecost-monday.php to know more about Whit Monday. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3891ed1582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Belgian National Day
+DTSTART:20190721
+DTEND:20190721
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/belgium/belgian-national-day.php to know more about Belgian National Day. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3892391582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Assumption of Mary
+DTSTART:20190815
+DTEND:20190815
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/us/the-assumption-of-mary.php to know more about Assumption of Mary. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3892be1582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:All Saints' Day
+DTSTART:20191101
+DTEND:20191101
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/philippines/all-saints-day.php to know more about All Saints' Day. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3893161582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Armistice Day
+DTSTART:20191111
+DTEND:20191111
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/france/armistice-day.php to know more about Armistice Day. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3893701582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Christmas
+DTSTART:20191225
+DTEND:20191225
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/us/christmas.php to know more about Christmas. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3893e51582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New Year's Day
+DTSTART:20200101
+DTEND:20200101
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/us/new-years-day.php to know more about New Year's Day. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3894731582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Good Friday
+DTSTART:20200410
+DTEND:20200410
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/us/good-friday.php to know more about Good Friday. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3894df1582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Easter
+DTSTART:20200412
+DTEND:20200412
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/us/easter.php to know more about Easter. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3895561582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Easter Monday
+DTSTART:20200413
+DTEND:20200413
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/christian/easter-monday.php to know more about Easter Monday. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3895bc1582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Labor Day / May Day
+DTSTART:20200501
+DTEND:20200501
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/uk/may-day.php to know more about Labor Day / May Day. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb38961f1582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ascension Day
+DTSTART:20200521
+DTEND:20200521
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/romania/ascension-day.php to know more about Ascension Day. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3896a31582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Whit Sunday
+DTSTART:20200531
+DTEND:20200531
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/france/whit-sunday.php to know more about Whit Sunday. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3897011582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Whit Monday
+DTSTART:20200601
+DTEND:20200601
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/germany/pentecost-monday.php to know more about Whit Monday. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb38975a1582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Belgian National Day
+DTSTART:20200721
+DTEND:20200721
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/belgium/belgian-national-day.php to know more about Belgian National Day. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3897b71582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Assumption of Mary
+DTSTART:20200815
+DTEND:20200815
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/us/the-assumption-of-mary.php to know more about Assumption of Mary. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb38981b1582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:All Saints' Day
+DTSTART:20201101
+DTEND:20201101
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/philippines/all-saints-day.php to know more about All Saints' Day. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb38987b1582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Armistice Day
+DTSTART:20201111
+DTEND:20201111
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/france/armistice-day.php to know more about Armistice Day. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3898d51582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Christmas
+DTSTART:20201225
+DTEND:20201225
+LOCATION:Belgium
+DESCRIPTION:Visit https://calendarlabs.com/holidays/us/christmas.php to know more about Christmas. \n\n Like us on Facebook: http://fb.com/calendarlabs to get updates
+UID:5e528eb3899301582468787@calendarlabs.com
+DTSTAMP:20200223T143947Z
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
