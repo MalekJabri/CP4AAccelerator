@@ -31,6 +31,8 @@ spec:
       labels:
         app: cp4accelerator-app
     spec:
+      imagePullSecrets:
+        - name: mj-registry
       serviceAccountName: cpaccelerator-sa
       containers:
         - name: cp4accelerator
