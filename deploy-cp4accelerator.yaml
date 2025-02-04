@@ -36,7 +36,7 @@ spec:
       serviceAccountName: cpaccelerator-sa
       containers:
         - name: cp4accelerator
-          image: docker.io/malekibm/cp4baacceleratoramd:latest
+          image: 'icr.io/malek-images/cp4baacceleratoramd:latest'
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
