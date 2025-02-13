@@ -31,12 +31,10 @@ spec:
       labels:
         app: cp4accelerator-app
     spec:
-      imagePullSecrets:
-        - name: mj-registry
       serviceAccountName: cpaccelerator-sa
       containers:
         - name: cp4accelerator
-          image: 'icr.io/malek-images/cp4baacceleratoramd:latest'
+          image: 'quay.io/malek_jabri/cp4baacceleratoramd:latest'
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
