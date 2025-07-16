@@ -36,12 +36,17 @@ spec:
         - name: cp4accelerator
           image: 'quay.io/malek_jabri/cp4baacceleratoramd:latest'
           imagePullPolicy: Always
+          env:
+            - name: JAVA_TOOL_OPTIONS
+              value: |
+                -XX:MaxRAMPercentage=75.0
           ports:
             - containerPort: 8080
               protocol: TCP
           resources:
             limits:
               cpu: "1"
+              memory: "2Gi"
             requests:
               cpu: 500m
           volumeMounts:
