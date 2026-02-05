@@ -1,0 +1,25 @@
+Agent d'assurance : Merci d'avoir appelé My Insurance Company. Je m'appelle Joe. Comment puis-je vous aider aujourd'hui ?
+
+Client : Bonjour, je m'appelle Sabrina Cortes et j'ai besoin de déposer une réclamation. Ma Nissan Maxima de 1998 a été volée et endommagée le 20 novembre 2023 à Paris.
+
+Agent d'assurance : Je suis désolé d'apprendre que votre véhicule a été volé et endommagé, Mary. Pouvez-vous fournir votre numéro de police ?
+
+Client : C'est le 456789012.
+
+Agent d'assurance : Merci. Je suis désolé d'apprendre que vous avez traversé cette épreuve. Laissez-moi recueillir quelques informations. Donc, l'incident s'est produit le 20 novembre à 22h à Paris ?
+
+Client : Oui.
+
+Agent d'assurance : Il n'y avait pas d'autres véhicules impliqués et un témoin était présent sur les lieux ? Et vous avez signalé l'incident aux autorités et vous avez un rapport de police disponible ?
+
+Client : C'est exact.
+
+Agent d'assurance : Très bien. Pouvez-vous me parler des dommages à votre véhicule ?
+
+Client : Quand j'ai retrouvé mon véhicule, il y avait des rayures et des bosses sur l'extérieur.
+
+Agent d'assurance : D'accord. Je vois. D'après les informations que vous avez fournies, il semble que ce soit une réclamation pour dommages mineurs. Cependant, comme votre véhicule a été volé, je vais m'assurer d'initier le processus de réclamation pour vous. Un représentant des réclamations vous contactera sous peu pour vous fournir de plus amples instructions. Y a-t-il autre chose que vous aimeriez ajouter ou demander pour le moment ?
+
+Client : Non, c'est tout. Merci pour votre aide.
+
+Agent d'assurance : Vous êtes la bienvenue, Mary. Désolé encore pour ce qui s'est passé, et nous espérons que le processus de réclamation sera aussi fluide que possible pour vous.

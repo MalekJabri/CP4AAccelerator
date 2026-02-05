@@ -1,0 +1,25 @@
+Sigorta Temsilcisi: My Insurance Company’i aradığınız için teşekkür ederim. Ben Joe. Size bugün nasıl yardımcı olabilirim?
+
+Müşteri: Merhaba, benim adım Mehmet Yılmaz, bir hasar kaydı oluşturmak istiyorum. 2020 model Volkswagen Golf aracım 15 Nisan 2023 tarihinde İstanbul’da çalındı ve hasar gördü.
+
+Sigorta Temsilcisi: Aracınızın çalınıp hasar görmesine üzüldüm, Mehmet. Poliçe numaranızı paylaşabilir misiniz?
+
+Müşteri: Tabii, poliçe numarası 63345-5435-DE32.
+
+Sigorta Temsilcisi: Teşekkür ederim. Bu zorlu süreci yaşamanıza üzüldüm. Birkaç bilgi toplamam gerekiyor. Olay, 15 Nisan’da saat 23:00’te İstanbul’da mı gerçekleşti?
+
+Müşteri: Evet.
+
+Sigorta Temsilcisi: Başka araçlar olaya karışmadı ve olay yerinde bir tanık vardı, doğru mu? Ayrıca olayı yetkililere bildirdiniz ve elinizde bir polis raporu mevcut mu?
+
+Müşteri: Evet, doğru.
+
+Sigorta Temsilcisi: Harika. Aracınızdaki hasar hakkında bilgi verebilir misiniz?
+
+Müşteri: Aracımı bulduğumda lastikler kesilmiş ve gösterge paneli zarar görmüştü.
+
+Sigorta Temsilcisi: Anladım. Verdiğiniz bilgilere dayanarak, bu orta derecede bir hasar kaydı gibi görünüyor. Ancak aracınız çalındığı için hasar sürecini sizin adınıza başlatacağımızdan emin olabilirsiniz. Bir hasar temsilcisi kısa süre içinde sizinle iletişime geçerek daha fazla bilgi sağlayacak. Şu anda eklemek veya sormak istediğiniz başka bir şey var mı?
+
+Müşteri: Hayır, hepsi bu kadar. Yardımınız için teşekkür ederim.
+
+Sigorta Temsilcisi: Rica ederim, Mehmet. Tekrar yaşadığınız durum için üzgünüm ve hasar sürecinin sizin için mümkün olduğunca sorunsuz geçmesini dilerim.

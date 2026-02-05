@@ -1,0 +1,42 @@
+Agente de Seguros:
+Boa tarde, obrigado por ligar para a minha companhia de seguros. O meu nome é João Pereira. Como posso ajudá-lo hoje?
+
+Cliente:
+Boa tarde João, o meu nome é Miguel Santos. Preciso abrir um sinistro, pois o meu Renault Clio 2019 foi roubado e danificado no dia 12 de julho de 2024, em Lisboa.
+Tentei contactar a companhia por telefone e e-mail durante dois dias, mas sem resposta.
+
+Agente de Seguros:
+Lamento muito ouvir isso, senhor Santos.
+Compreendo como esta situação pode ser frustrante. Pode dar-me o número da sua apólice?
+
+Cliente:
+Claro, é 2468-135-79.
+
+Agente de Seguros:
+Obrigado. Então o incidente aconteceu a 12 de julho por volta das 23h30, em Lisboa, certo?
+
+Cliente:
+Sim, exatamente. A viatura estava estacionada perto do meu prédio em Benfica.
+
+Agente de Seguros:
+Entendido. Havia testemunhas ou câmaras de vigilância na zona?
+
+Cliente:
+Um vizinho ouviu um barulho e viu dois homens a fugir. A polícia já tem o relatório do caso.
+
+Agente de Seguros:
+Perfeito. Isso ajuda muito.
+Pode descrever os danos encontrados quando recuperou o carro?
+
+Cliente:
+Os pneus estavam cortados, o painel danificado e o rádio desaparecido.
+
+Agente de Seguros:
+Percebo. Com base nas informações fornecidas, trata-se de um sinistro de danos moderados.
+Como houve roubo, iniciaremos imediatamente o processo de reclamação. Um representante irá contactá-lo dentro de 48 horas.
+
+Cliente:
+Agradeço muito a sua atenção, João. Já me sinto mais confiante.
+
+Agente de Seguros:
+É o meu dever, senhor Santos. Lamento o sucedido e espero que o processo seja o mais rápido e simples possível.
