@@ -37,9 +37,8 @@ spec:
           image: 'quay.io/malek_jabri/cp4baacceleratoramd:latest'
           imagePullPolicy: Always
           env:
-            - name: JAVA_TOOL_OPTIONS
-              value: |
-                -XX:MaxRAMPercentage=75.0
+            - name: JAVA_OPTS
+              value: '-Xms512m -Xmx1024m'
           ports:
             - containerPort: 8080
               protocol: TCP
