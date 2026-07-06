@@ -1,12 +1,12 @@
 Agent d'assurance : Merci d'avoir appelé My Insurance Company. Je m'appelle Joe. Comment puis-je vous aider aujourd'hui ?
 
-Client : Bonjour, je m'appelle Sabrina Cortes et j'ai besoin de déposer une réclamation. Ma Nissan Maxima de 1998 a été volée et endommagée le 20 novembre 2023 à Paris.
+Client : Bonjour, je m'appelle Sabrina Cortes et j'ai besoin de déposer une réclamation. Ma Nissan Maxima de 1998 a été volée et endommagée le 20 février 2026 à Paris.
 
 Agent d'assurance : Je suis désolé d'apprendre que votre véhicule a été volé et endommagé, Mary. Pouvez-vous fournir votre numéro de police ?
 
 Client : C'est le 456789012.
 
-Agent d'assurance : Merci. Je suis désolé d'apprendre que vous avez traversé cette épreuve. Laissez-moi recueillir quelques informations. Donc, l'incident s'est produit le 20 novembre à 22h à Paris ?
+Agent d'assurance : Merci. Je suis désolé d'apprendre que vous avez traversé cette épreuve. Laissez-moi recueillir quelques informations. Donc, l'incident s'est produit le 20 février 2026 à 22h à Paris ?
 
 Client : Oui.
 

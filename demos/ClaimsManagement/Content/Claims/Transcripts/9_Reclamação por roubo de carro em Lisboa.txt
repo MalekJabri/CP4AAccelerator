@@ -2,7 +2,7 @@ Agente de Seguros:
 Boa tarde, obrigado por ligar para a minha companhia de seguros. O meu nome é João Pereira. Como posso ajudá-lo hoje?
 
 Cliente:
-Boa tarde João, o meu nome é Miguel Santos. Preciso abrir um sinistro, pois o meu Renault Clio 2019 foi roubado e danificado no dia 12 de julho de 2024, em Lisboa.
+Boa tarde João, o meu nome é Miguel Santos. Preciso abrir um sinistro, pois o meu Renault Clio 2019 foi roubado e danificado no dia 12 de maio de 2026, em Lisboa.
 Tentei contactar a companhia por telefone e e-mail durante dois dias, mas sem resposta.
 
 Agente de Seguros:
@@ -13,7 +13,7 @@ Cliente:
 Claro, é 2468-135-79.
 
 Agente de Seguros:
-Obrigado. Então o incidente aconteceu a 12 de julho por volta das 23h30, em Lisboa, certo?
+Obrigado. Então o incidente aconteceu a 12 de maio de 2026 por volta das 23h30, em Lisboa, certo?
 
 Cliente:
 Sim, exatamente. A viatura estava estacionada perto do meu prédio em Benfica.

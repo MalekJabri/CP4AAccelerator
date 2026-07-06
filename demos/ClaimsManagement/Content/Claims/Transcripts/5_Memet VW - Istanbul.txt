@@ -1,12 +1,12 @@
 Sigorta Temsilcisi: My Insurance Company’i aradığınız için teşekkür ederim. Ben Joe. Size bugün nasıl yardımcı olabilirim?
 
-Müşteri: Merhaba, benim adım Mehmet Yılmaz, bir hasar kaydı oluşturmak istiyorum. 2020 model Volkswagen Golf aracım 15 Nisan 2023 tarihinde İstanbul’da çalındı ve hasar gördü.
+Müşteri: Merhaba, benim adım Mehmet Yılmaz, bir hasar kaydı oluşturmak istiyorum. 2020 model Volkswagen Golf aracım 15 Nisan 2026 tarihinde İstanbul'da çalındı ve hasar gördü.
 
 Sigorta Temsilcisi: Aracınızın çalınıp hasar görmesine üzüldüm, Mehmet. Poliçe numaranızı paylaşabilir misiniz?
 
 Müşteri: Tabii, poliçe numarası 63345-5435-DE32.
 
-Sigorta Temsilcisi: Teşekkür ederim. Bu zorlu süreci yaşamanıza üzüldüm. Birkaç bilgi toplamam gerekiyor. Olay, 15 Nisan’da saat 23:00’te İstanbul’da mı gerçekleşti?
+Sigorta Temsilcisi: Teşekkür ederim. Bu zorlu süreci yaşamanıza üzüldüm. Birkaç bilgi toplamam gerekiyor. Olay, 15 Nisan 2026'da saat 23:00'te İstanbul'da mı gerçekleşti?
 
 Müşteri: Evet.
 
