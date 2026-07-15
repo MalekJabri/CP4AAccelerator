@@ -1,0 +1,639 @@
+{
+  "id" : "zYXgZJ8ButaiIJZaGSF4",
+  "name" : "Claims Processing Final",
+  "description" : "Custom visualizations for completed claims processing flow\n",
+  "owner" : "cpmanager",
+  "type" : "ONLY_ME",
+  "visualizations" : [ {
+    "id" : "f6e52d4d-c5d4-42a7-94ab-0f46b5bcade2",
+    "name" : "Approval Count of High-Risk Cases",
+    "description" : "",
+    "config" : {
+      "type" : "MetricTrendConfigDto",
+      "domain" : {
+        "kind" : "Workflow (Case)",
+        "id" : "Client Onboarding",
+        "name" : "Client Onboarding",
+        "fields" : [ "solution-name.keyword" ],
+        "fieldValues" : [ "Client Onboarding" ],
+        "timestampField" : "timestamp",
+        "hasSuggestions" : false
+      },
+      "filters" : [ {
+        "field" : "data.CO_HighRisk",
+        "op" : "IsTrue",
+        "values" : [ ]
+      }, {
+        "field" : "data.CO_ApprovalStatus.keyword",
+        "op" : "Eq",
+        "values" : [ "Approved" ]
+      } ],
+      "fieldAggregation" : {
+        "aggregations" : [ {
+          "field" : "",
+          "kind" : "Count"
+        } ],
+        "groups" : [ ],
+        "drill" : false,
+        "_version" : 2
+      },
+      "interval" : {
+        "type" : "FixedIntervalDto",
+        "unit" : "MINUTE",
+        "value" : 1
+      },
+      "timestampField" : "timestamp",
+      "settings" : {
+        "type" : "TrendSettingsBarDto",
+        "unit" : "Date",
+        "legend" : {
+          "displayLegend" : true,
+          "displayTitle" : true,
+          "title" : "",
+          "position" : "right",
+          "iconShape" : "circle"
+        },
+        "labelYAxis" : "Approvals",
+        "verticalDirection" : true,
+        "stacked" : true,
+        "_version" : 1
+      },
+      "predictionConfig" : {
+        "enabled" : false,
+        "_version" : 2
+      }
+    },
+    "layouts" : [ {
+      "kind" : "SM",
+      "x" : 0.0,
+      "y" : 10.0,
+      "w" : 1.0,
+      "h" : 2.0
+    }, {
+      "kind" : "LG",
+      "x" : 2.0,
+      "y" : 2.0,
+      "w" : 2.0,
+      "h" : 2.0
+    } ],
+    "showAsTable" : false
+  }, {
+    "id" : "7a1ac82d-54ff-4b8a-b096-8eb0e69ccbf7",
+    "name" : "Activity Duration Distribution in Case Completion",
+    "description" : "",
+    "config" : {
+      "type" : "MetricConfigDto",
+      "domain" : {
+        "kind" : "Workflow (Case)",
+        "id" : "Client Onboarding",
+        "name" : "Client Onboarding",
+        "fields" : [ "solution-name.keyword" ],
+        "fieldValues" : [ "Client Onboarding" ],
+        "timestampField" : "timestamp",
+        "hasSuggestions" : false
+      },
+      "fieldAggregation" : {
+        "aggregations" : [ {
+          "field" : "duration-seconds",
+          "kind" : "Average"
+        } ],
+        "groups" : [ {
+          "field" : "task-name.keyword"
+        } ],
+        "drill" : false,
+        "_version" : 2
+      },
+      "settings" : {
+        "type" : "SingleSettingsDoughnutDto",
+        "unit" : "Activity",
+        "formatters" : [ {
+          "field" : "duration-seconds",
+          "format" : "DURATION",
+          "options" : {
+            "type" : "DurationOptionsDto",
+            "input" : "SECOND",
+            "output" : "MINUTE"
+          }
+        } ],
+        "legend" : {
+          "displayLegend" : true,
+          "displayTitle" : true,
+          "title" : ""
+        },
+        "displayInnerLabel" : true,
+        "innerLabel" : "Average Case Duration",
+        "_version" : 1
+      },
+      "_version" : 1
+    },
+    "layouts" : [ {
+      "kind" : "SM",
+      "x" : 0.0,
+      "y" : 14.0,
+      "w" : 1.0,
+      "h" : 2.0
+    }, {
+      "kind" : "LG",
+      "x" : 4.0,
+      "y" : 4.0,
+      "w" : 2.0,
+      "h" : 2.0
+    } ],
+    "showAsTable" : false
+  }, {
+    "id" : "2611999d-e0aa-4b73-8922-75d3b46af63f",
+    "name" : "Vehicule Brands",
+    "description" : "",
+    "config" : {
+      "type" : "MetricConfigDto",
+      "domain" : {
+        "kind" : "Workflow (Case)",
+        "id" : "Insurex",
+        "name" : "Insurex",
+        "fields" : [ "solution-name.keyword" ],
+        "fieldValues" : [ "Insurex" ],
+        "timestampField" : "timestamp",
+        "hasSuggestions" : false
+      },
+      "fieldAggregation" : {
+        "aggregations" : [ {
+          "field" : "",
+          "kind" : "Count"
+        } ],
+        "groups" : [ {
+          "field" : "data.PA_VehicleBrand.keyword"
+        }, {
+          "field" : "data.PA_VehicleModel.keyword"
+        } ],
+        "drill" : false,
+        "_version" : 2
+      },
+      "settings" : {
+        "type" : "SingleSettingsHierarchicalPieDto",
+        "displayTitle" : true,
+        "unit" : "",
+        "legend" : {
+          "displayLegend" : true,
+          "displayTitle" : true,
+          "title" : ""
+        },
+        "_version" : 1
+      },
+      "_version" : 1
+    },
+    "layouts" : [ {
+      "kind" : "SM",
+      "x" : 0.0,
+      "y" : 6.0,
+      "w" : 1.0,
+      "h" : 2.0
+    }, {
+      "kind" : "LG",
+      "x" : 2.0,
+      "y" : 0.0,
+      "w" : 2.0,
+      "h" : 2.0
+    } ],
+    "showAsTable" : false
+  }, {
+    "id" : "ac55cb6c-9990-48af-9f11-45ffa9250b07",
+    "name" : "Claims per region",
+    "description" : "",
+    "config" : {
+      "type" : "MetricConfigDto",
+      "domain" : {
+        "kind" : "Workflow (Case)",
+        "id" : "Insurex",
+        "name" : "Insurex",
+        "fields" : [ "solution-name.keyword" ],
+        "fieldValues" : [ "Insurex" ],
+        "timestampField" : "timestamp",
+        "hasSuggestions" : false
+      },
+      "fieldAggregation" : {
+        "aggregations" : [ {
+          "field" : "",
+          "kind" : "Count"
+        } ],
+        "groups" : [ {
+          "field" : "data.PA_Location.keyword"
+        } ],
+        "drill" : false,
+        "_version" : 2
+      },
+      "settings" : {
+        "type" : "SingleSettingsPieDto",
+        "displayTitle" : true,
+        "unit" : "Approval Status",
+        "legend" : {
+          "displayLegend" : true,
+          "displayTitle" : true,
+          "title" : ""
+        },
+        "pieChartLabelDisplayed" : true,
+        "pieChartLabelFormat" : "Percentage",
+        "_version" : 1
+      },
+      "_version" : 1
+    },
+    "layouts" : [ {
+      "kind" : "SM",
+      "x" : 0.0,
+      "y" : 18.0,
+      "w" : 1.0,
+      "h" : 2.0
+    }, {
+      "kind" : "LG",
+      "x" : 0.0,
+      "y" : 5.0,
+      "w" : 2.0,
+      "h" : 2.0
+    } ],
+    "showAsTable" : false
+  }, {
+    "id" : "0a43317c-d236-4b7b-91b3-448f65617fd8",
+    "name" : "Completed Cases per Day",
+    "description" : "",
+    "config" : {
+      "type" : "KpiTrendConfigDto",
+      "domain" : {
+        "kind" : "Workflow (Case)",
+        "id" : "Insurex",
+        "name" : "Insurex",
+        "fields" : [ "solution-name.keyword" ],
+        "fieldValues" : [ "Insurex" ],
+        "timestampField" : "timestamp",
+        "hasSuggestions" : false
+      },
+      "filters" : [ {
+        "field" : "type.keyword",
+        "op" : "Eq",
+        "values" : [ "case" ]
+      }, {
+        "field" : "state.keyword",
+        "op" : "Eq",
+        "values" : [ "Complete" ]
+      } ],
+      "fieldAggregation" : {
+        "aggregations" : [ {
+          "field" : "",
+          "kind" : "Count"
+        } ],
+        "groups" : [ ],
+        "drill" : false,
+        "_version" : 2
+      },
+      "interval" : {
+        "type" : "FixedIntervalDto",
+        "unit" : "MINUTE",
+        "value" : 1
+      },
+      "timestampField" : "timestamp",
+      "settings" : {
+        "type" : "TrendSettingsBarDto",
+        "displayTitle" : true,
+        "unit" : "Date",
+        "legend" : {
+          "displayLegend" : true,
+          "displayTitle" : true,
+          "title" : "",
+          "position" : "right",
+          "iconShape" : "circle"
+        },
+        "labelYAxis" : "Completed Cases",
+        "verticalDirection" : true,
+        "stacked" : true,
+        "chartValueLabel" : {
+          "displayed" : false,
+          "format" : "Value",
+          "location" : "center"
+        },
+        "_version" : 1
+      },
+      "targets" : [ {
+        "name" : "Target",
+        "value" : 3.0
+      } ],
+      "thresholds" : [ {
+        "name" : "Case Completion Rate",
+        "value" : 2.0,
+        "ranges" : [ {
+          "name" : "Low",
+          "start" : "min",
+          "end" : "2",
+          "color" : "#fa4d56"
+        }, {
+          "name" : "Normal",
+          "start" : "2",
+          "end" : "5",
+          "color" : "#b28600"
+        } ]
+      }, {
+        "name" : "T2",
+        "value" : 5.0,
+        "ranges" : [ {
+          "name" : "High",
+          "start" : "5",
+          "end" : "max",
+          "color" : "#198038"
+        } ]
+      } ],
+      "alertsConfig" : [ {
+        "id" : "8a3e9820-9cb4-426f-8b8b-87883e546032",
+        "kind" : "HitTargetDown",
+        "message" : "The case completion rate is low.",
+        "targetName" : "Case Completion Rate",
+        "targetType" : "Threshold",
+        "priority" : "High"
+      } ],
+      "predictionConfig" : {
+        "enabled" : true,
+        "nextPrediction" : {
+          "type" : "CalendarIntervalDto",
+          "unit" : "DAY"
+        },
+        "_version" : 2
+      }
+    },
+    "layouts" : [ {
+      "kind" : "SM",
+      "x" : 0.0,
+      "y" : 16.0,
+      "w" : 1.0,
+      "h" : 2.0
+    }, {
+      "kind" : "LG",
+      "x" : 2.0,
+      "y" : 4.0,
+      "w" : 2.0,
+      "h" : 2.0
+    } ],
+    "showAsTable" : false
+  }, {
+    "id" : "94236f4f-4b5e-4489-b19d-24122fc31360",
+    "name" : "Type of Incindent & Level of Damage",
+    "description" : "",
+    "config" : {
+      "type" : "MetricConfigDto",
+      "domain" : {
+        "kind" : "Workflow (Case)",
+        "id" : "Insurex",
+        "name" : "Insurex",
+        "fields" : [ "solution-name.keyword" ],
+        "fieldValues" : [ "Insurex" ],
+        "timestampField" : "timestamp",
+        "hasSuggestions" : false
+      },
+      "fieldAggregation" : {
+        "aggregations" : [ {
+          "field" : "",
+          "kind" : "Count"
+        } ],
+        "groups" : [ {
+          "field" : "data.PA_TypeofIncidence.keyword"
+        }, {
+          "field" : "data.PA_TypeofCollision.keyword"
+        } ],
+        "drill" : false,
+        "_version" : 2
+      },
+      "settings" : {
+        "type" : "SingleSettingsHeatMapDto",
+        "displayTitle" : true,
+        "unit" : "Industry",
+        "legend" : {
+          "displayLegend" : true,
+          "displayTitle" : true,
+          "title" : ""
+        },
+        "labelYAxis" : "Maximum Service Fee [$]",
+        "_version" : 1
+      },
+      "_version" : 1
+    },
+    "layouts" : [ {
+      "kind" : "SM",
+      "x" : 0.0,
+      "y" : 3.0,
+      "w" : 1.0,
+      "h" : 3.0
+    }, {
+      "kind" : "LG",
+      "x" : 0.0,
+      "y" : 2.0,
+      "w" : 2.0,
+      "h" : 3.0
+    } ],
+    "showAsTable" : false
+  }, {
+    "id" : "82ab7394-a0b6-4be4-a8b9-94579a33e330",
+    "name" : "Average fraud Risk",
+    "description" : "",
+    "config" : {
+      "type" : "KpiConfigDto",
+      "domain" : {
+        "kind" : "Workflow (Case)",
+        "id" : "Insurex",
+        "name" : "Insurex",
+        "fields" : [ "solution-name.keyword" ],
+        "fieldValues" : [ "Insurex" ],
+        "timestampField" : "timestamp",
+        "hasSuggestions" : false
+      },
+      "fieldAggregation" : {
+        "aggregations" : [ {
+          "field" : "data.CO_AnnualRevenue",
+          "kind" : "Average"
+        } ],
+        "groups" : [ ],
+        "drill" : false,
+        "_version" : 2
+      },
+      "settings" : {
+        "type" : "SingleSettingsRadialGaugeDto",
+        "displayTitle" : true,
+        "unit" : "",
+        "min" : 0.0,
+        "max" : 5.0,
+        "_version" : 1
+      },
+      "targets" : [ {
+        "name" : "Target",
+        "value" : 3.0
+      } ],
+      "thresholds" : [ {
+        "name" : "Below",
+        "value" : 2.0,
+        "ranges" : [ {
+          "name" : "Low",
+          "start" : "min",
+          "end" : "2",
+          "color" : "#198038"
+        }, {
+          "name" : "Medium",
+          "start" : "2",
+          "end" : "3",
+          "color" : "#b28600"
+        } ]
+      }, {
+        "name" : "Above",
+        "value" : 3.0,
+        "ranges" : [ {
+          "name" : "High",
+          "start" : "3",
+          "end" : "max",
+          "color" : "#9f1853"
+        } ]
+      } ]
+    },
+    "layouts" : [ {
+      "kind" : "SM",
+      "x" : 0.0,
+      "y" : 0.0,
+      "w" : 1.0,
+      "h" : 3.0
+    }, {
+      "kind" : "LG",
+      "x" : 0.0,
+      "y" : 0.0,
+      "w" : 2.0,
+      "h" : 2.0
+    } ],
+    "showAsTable" : false
+  }, {
+    "id" : "7ba02f82-395e-42ba-a14d-a5e5e35ebe2c",
+    "name" : "Claims Processing Data",
+    "description" : "",
+    "config" : {
+      "type" : "TableConfigDto",
+      "domain" : {
+        "kind" : "Workflow (Case)",
+        "id" : "Insurex",
+        "name" : "Insurex",
+        "fields" : [ "solution-name.keyword" ],
+        "fieldValues" : [ "Insurex" ],
+        "timestampField" : "timestamp",
+        "hasSuggestions" : false
+      },
+      "filters" : [ {
+        "field" : "category.keyword",
+        "op" : "Eq",
+        "values" : [ "icm" ]
+      }, {
+        "field" : "type.keyword",
+        "op" : "Eq",
+        "values" : [ "case" ]
+      }, {
+        "field" : "state.keyword",
+        "op" : "Eq",
+        "values" : [ "Complete" ]
+      } ],
+      "columns" : [ {
+        "field" : "case-stage.keyword",
+        "label" : "Status"
+      }, {
+        "field" : "data.PA_VehicleBrand.keyword",
+        "label" : "Brand"
+      }, {
+        "field" : "data.PA_Risk",
+        "label" : "Risk"
+      }, {
+        "field" : "data.PA_Location.keyword",
+        "label" : "Location"
+      }, {
+        "field" : "duration-seconds",
+        "label" : "Duration",
+        "textFormatter" : {
+          "field" : "duration-seconds",
+          "format" : "DURATION",
+          "options" : {
+            "type" : "DurationOptionsDto",
+            "input" : "SECOND",
+            "output" : "MINUTE"
+          }
+        }
+      } ]
+    },
+    "layouts" : [ {
+      "kind" : "SM",
+      "x" : 0.0,
+      "y" : 20.0,
+      "w" : 1.0,
+      "h" : 2.0
+    }, {
+      "kind" : "LG",
+      "x" : 2.0,
+      "y" : 6.0,
+      "w" : 2.0,
+      "h" : 2.0
+    } ],
+    "showAsTable" : false
+  }, {
+    "id" : "0dae90e6-949e-4fca-ac70-e5ad0f72c5cb",
+    "name" : "Average Approval Confidence by Industry Sector and Revenue",
+    "description" : "",
+    "config" : {
+      "type" : "MetricConfigDto",
+      "domain" : {
+        "kind" : "Workflow (Case)",
+        "id" : "Insurex",
+        "name" : "Insurex",
+        "fields" : [ "solution-name.keyword" ],
+        "fieldValues" : [ "Insurex" ],
+        "timestampField" : "timestamp",
+        "hasSuggestions" : false
+      },
+      "fieldAggregation" : {
+        "aggregations" : [ {
+          "field" : "data.PA_VehicleYear",
+          "kind" : "Average"
+        }, {
+          "field" : "data.PA_Risk",
+          "kind" : "Average"
+        }, {
+          "field" : "",
+          "kind" : "Count"
+        } ],
+        "groups" : [ {
+          "field" : "data.PA_Location.keyword"
+        } ],
+        "drill" : false,
+        "_version" : 2
+      },
+      "settings" : {
+        "type" : "SingleSettingsBubbleDto",
+        "displayTitle" : true,
+        "unit" : "Average Company Revenue",
+        "legend" : {
+          "displayLegend" : true,
+          "displayTitle" : true,
+          "title" : "Industry"
+        },
+        "labelYAxis" : "Average Approval Confidence Level",
+        "_version" : 1
+      },
+      "_version" : 1
+    },
+    "layouts" : [ {
+      "kind" : "SM",
+      "x" : 0.0,
+      "y" : 12.0,
+      "w" : 1.0,
+      "h" : 2.0
+    }, {
+      "kind" : "LG",
+      "x" : 4.0,
+      "y" : 0.0,
+      "w" : 2.0,
+      "h" : 4.0
+    } ],
+    "showAsTable" : false
+  } ],
+  "timeWindow" : {
+    "type" : "NoTimeWindowDto"
+  },
+  "creation" : "2026-07-15T08:23:55.987Z",
+  "lastUpdate" : "2026-07-15T08:45:01.420927747Z",
+  "goalsLayout" : [ ],
+  "_dashboardVersion" : 5
+}
