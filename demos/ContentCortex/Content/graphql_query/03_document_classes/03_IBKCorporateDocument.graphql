@@ -1,0 +1,114 @@
+mutation CreateClass_IBKCorporateDocument {
+  admCreateClassDefinition(
+    repositoryIdentifier: "OS1"
+    superclassIdentifier: "IBKDocument"
+    classDefinitionProperties: {
+      symbolicName: "IBKCorporateDocument"
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "IBK Corporate Document" }]
+      }
+      descriptiveTexts: {
+        replace: [{ localeName: "en-us", localizedText: "IBK Corporate Document" }]
+      }
+      propertyDefinitions: {
+        modify: [
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKCorpDocType" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKFacilityID" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKFacilityAmount" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKFacilityType" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKBorrowerName" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKLenderName" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKAgentBank" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKMarginBPS" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKTradeInstrument" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKTradeID" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKTradeDate" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKSettlementDate" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKNotionalAmount" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKEDDRiskRating" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKUBOName" }
+            isValueRequired: false
+            isHidden: false
+          }
+        ]
+      }
+    }
+  ) {
+    className
+    id
+    symbolicName
+    displayName
+  }
+}

@@ -1,0 +1,288 @@
+mutation CreateChoiceList_IBK__Wealth_Document_Type {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Wealth Document Type"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Suitability Assessment"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Suitability Assessment" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Investment Policy Statement"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Investment Policy Statement" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Discretionary Mandate"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Discretionary Mandate" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Portfolio Report"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Portfolio Report" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Client Agreement"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Client Agreement" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Fee Schedule"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Fee Schedule" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "KYC / Wealth Source"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "KYC / Wealth Source" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Trust Deed"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Trust Deed" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Will"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Will" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Power of Attorney"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Power of Attorney" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Estate Valuation Report"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Estate Valuation Report" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Tax Advisory Letter"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Tax Advisory Letter" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Compliance Sign-off"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Compliance Sign-off" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Correspondence"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Correspondence" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Other"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Other" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Risk_Profile {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Risk Profile"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Conservative"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Conservative" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Balanced"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Balanced" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Growth"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Growth" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Aggressive"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Aggressive" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Capital Preservation"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Capital Preservation" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Portfolio_Currency {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Portfolio Currency"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "EUR"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "EUR" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "USD"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "USD" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "GBP"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "GBP" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "CHF"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "CHF" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Multi-currency"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Multi-currency" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Trust_Type {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Trust Type"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Discretionary Trust"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Discretionary Trust" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Fixed Trust"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Fixed Trust" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Bare Trust"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Bare Trust" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Charitable Trust"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Charitable Trust" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Family Trust"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Family Trust" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Foundation"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Foundation" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}

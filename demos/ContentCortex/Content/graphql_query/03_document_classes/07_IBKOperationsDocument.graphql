@@ -1,0 +1,102 @@
+mutation CreateClass_IBKOperationsDocument {
+  admCreateClassDefinition(
+    repositoryIdentifier: "OS1"
+    superclassIdentifier: "IBKDocument"
+    classDefinitionProperties: {
+      symbolicName: "IBKOperationsDocument"
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "IBK Operations Document" }]
+      }
+      descriptiveTexts: {
+        replace: [{ localeName: "en-us", localizedText: "IBK Operations Document" }]
+      }
+      propertyDefinitions: {
+        modify: [
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKOpsDocType" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKVendorID" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKVendorName" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKContractID" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKContractStatus" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKContractValue" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKInvoiceNumber" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKInvoiceAmount" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKInvoiceStatus" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKEmployeeID" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKEmployeeName" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKDepartment" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKLegacySourcePath" }
+            isValueRequired: false
+            isHidden: false
+          }
+        ]
+      }
+    }
+  ) {
+    className
+    id
+    symbolicName
+    displayName
+  }
+}

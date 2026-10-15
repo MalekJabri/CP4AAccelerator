@@ -1,0 +1,432 @@
+mutation CreateChoiceList_IBK__Insurance_Document_Type {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Insurance Document Type"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Insurance Policy"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Insurance Policy" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Policy Schedule"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Policy Schedule" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Endorsement"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Endorsement" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Certificate of Insurance"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Certificate of Insurance" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Claim Form"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Claim Form" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Claim Assessment Report"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Claim Assessment Report" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Medical Report"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Medical Report" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Loss Adjuster Report"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Loss Adjuster Report" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Settlement Letter"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Settlement Letter" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Reinsurance Treaty"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Reinsurance Treaty" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Reinsurance Slip"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Reinsurance Slip" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Solvency II Report"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Solvency II Report" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "ORSA Report"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "ORSA Report" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Actuarial Valuation"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Actuarial Valuation" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Underwriting Memo"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Underwriting Memo" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Premium Notice"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Premium Notice" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Cancellation Notice"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Cancellation Notice" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Correspondence"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Correspondence" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Other"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Other" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Insurance_Product {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Insurance Product"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Term Life"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Term Life" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Whole Life"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Whole Life" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Unit-Linked Life"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Unit-Linked Life" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Critical Illness"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Critical Illness" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Health"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Health" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Motor"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Motor" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Home"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Home" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Commercial Property"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Commercial Property" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Liability"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Liability" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Marine Cargo"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Marine Cargo" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Directors & Officers"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Directors & Officers" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Cyber Risk"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Cyber Risk" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Reinsurance"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Reinsurance" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Claim_Status {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Claim Status"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Registered"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Registered" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Under Assessment"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Under Assessment" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Approved"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Approved" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Partially Approved"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Partially Approved" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Rejected"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Rejected" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Settled"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Settled" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Closed"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Closed" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Underwriting_Decision {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Underwriting Decision"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Accepted Standard"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Accepted Standard" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Accepted Non-standard"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Accepted Non-standard" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Declined"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Declined" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Referred"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Referred" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Reinsurance_Type {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Reinsurance Type"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Proportional"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Proportional" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Non-Proportional"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Non-Proportional" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Quota Share"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Quota Share" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Excess of Loss"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Excess of Loss" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Stop Loss"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Stop Loss" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Facultative"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Facultative" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}

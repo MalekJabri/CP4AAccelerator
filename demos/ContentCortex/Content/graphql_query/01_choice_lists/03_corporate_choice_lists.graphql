@@ -1,0 +1,330 @@
+mutation CreateChoiceList_IBK__Corporate_Document_Type {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Corporate Document Type"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Syndicated Loan Agreement"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Syndicated Loan Agreement" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Bilateral Loan Agreement"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Bilateral Loan Agreement" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Letter of Credit"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Letter of Credit" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Bill of Lading"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Bill of Lading" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Trade Invoice"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Trade Invoice" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Trade Finance Application"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Trade Finance Application" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Term Sheet"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Term Sheet" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Facility Agreement"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Facility Agreement" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Trade Confirmation"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Trade Confirmation" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "ISDA Master Agreement"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "ISDA Master Agreement" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "CSA / Credit Support Annex"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "CSA / Credit Support Annex" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Corporate KYC Package"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Corporate KYC Package" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Beneficial Ownership Form"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Beneficial Ownership Form" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "EDD Report"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "EDD Report" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Board Resolution"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Board Resolution" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Certificate of Incorporation"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Certificate of Incorporation" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Audited Financial Statements"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Audited Financial Statements" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Covenant Compliance Certificate"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Covenant Compliance Certificate" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Other"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Other" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Trade_Finance_Instrument {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Trade Finance Instrument"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Documentary Credit"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Documentary Credit" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Standby Letter of Credit"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Standby Letter of Credit" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Bank Guarantee"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Bank Guarantee" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Bill of Exchange"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Bill of Exchange" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Promissory Note"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Promissory Note" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Other"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Other" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Facility_Type {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Facility Type"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Revolving Credit Facility"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Revolving Credit Facility" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Term Loan"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Term Loan" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Overdraft"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Overdraft" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Trade Finance Line"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Trade Finance Line" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Derivatives Facility"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Derivatives Facility" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Syndicated Loan"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Syndicated Loan" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Bilateral Loan"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Bilateral Loan" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__EDD_Risk_Rating {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – EDD Risk Rating"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Low"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Low" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Medium"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Medium" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "High"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "High" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Very High"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Very High" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Prohibited"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Prohibited" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}

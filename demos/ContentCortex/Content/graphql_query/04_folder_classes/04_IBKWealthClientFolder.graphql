@@ -1,0 +1,48 @@
+mutation CreateClass_IBKWealthClientFolder {
+  admCreateClassDefinition(
+    repositoryIdentifier: "OS1"
+    superclassIdentifier: "IBKFolder"
+    classDefinitionProperties: {
+      symbolicName: "IBKWealthClientFolder"
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "IBK Wealth Client Folder" }]
+      }
+      descriptiveTexts: {
+        replace: [{ localeName: "en-us", localizedText: "IBK Wealth Client Folder" }]
+      }
+      propertyDefinitions: {
+        modify: [
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKCustomerID" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKCustomerName" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKRiskProfile" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKPortfolioID" }
+            isValueRequired: false
+            isHidden: false
+          }
+        ]
+      }
+    }
+  ) {
+    className
+    id
+    symbolicName
+    displayName
+  }
+}

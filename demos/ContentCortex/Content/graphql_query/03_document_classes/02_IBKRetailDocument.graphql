@@ -1,0 +1,102 @@
+mutation CreateClass_IBKRetailDocument {
+  admCreateClassDefinition(
+    repositoryIdentifier: "OS1"
+    superclassIdentifier: "IBKDocument"
+    classDefinitionProperties: {
+      symbolicName: "IBKRetailDocument"
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "IBK Retail Document" }]
+      }
+      descriptiveTexts: {
+        replace: [{ localeName: "en-us", localizedText: "IBK Retail Document" }]
+      }
+      propertyDefinitions: {
+        modify: [
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKRetailDocType" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKLoanID" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKLoanAmount" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKLoanPurpose" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKInterestRate" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKMaturityDate" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKCollateralType" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKCollateralValue" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKKYCStatus" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKKYCReviewDate" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKAccountNumber" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKStatementPeriodStart" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "IBKStatementPeriodEnd" }
+            isValueRequired: false
+            isHidden: false
+          }
+        ]
+      }
+    }
+  ) {
+    className
+    id
+    symbolicName
+    displayName
+  }
+}

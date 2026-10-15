@@ -1,0 +1,207 @@
+mutation CreateChoiceList_IBK__Operations_Document_Type {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Operations Document Type"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Vendor Contract"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Vendor Contract" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Purchase Order"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Purchase Order" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Invoice"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Invoice" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Service Level Agreement"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Service Level Agreement" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Employment Contract"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Employment Contract" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Payslip"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Payslip" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Performance Review"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Performance Review" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Training Record"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Training Record" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Disciplinary Record"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Disciplinary Record" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "IT Asset Record"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "IT Asset Record" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Legacy Migration Manifest"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Legacy Migration Manifest" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Other"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Other" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Contract_Status {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Contract Status"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Active"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Active" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Expired"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Expired" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Under Renewal"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Under Renewal" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Terminated"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Terminated" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Draft"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Draft" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Invoice_Status {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Invoice Status"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Received"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Received" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Approved"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Approved" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Paid"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Paid" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Disputed"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Disputed" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Cancelled"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Cancelled" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}

@@ -1,0 +1,316 @@
+mutation CreateChoiceList_IBK__Compliance_Document_Type {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Compliance Document Type"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Regulatory Policy"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Regulatory Policy" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Compliance Procedure"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Compliance Procedure" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "KYC / AML Report"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "KYC / AML Report" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "SAR Filing"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "SAR Filing" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Sanctions Screening Report"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Sanctions Screening Report" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Transaction Monitoring Alert"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Transaction Monitoring Alert" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Internal Audit Report"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Internal Audit Report" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Audit Finding"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Audit Finding" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Management Response"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Management Response" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "GDPR Processing Record"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "GDPR Processing Record" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Data Subject Request"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Data Subject Request" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Data Breach Report"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Data Breach Report" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Regulatory Correspondence"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Regulatory Correspondence" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Board Approval Minute"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Board Approval Minute" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Other"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Other" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Regulatory_Framework {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Regulatory Framework"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "MiFID II"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "MiFID II" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "GDPR"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "GDPR" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "AML5 / AML6"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "AML5 / AML6" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Solvency II"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Solvency II" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Basel III / CRR"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Basel III / CRR" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "EMIR"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "EMIR" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "PSD2"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "PSD2" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "DORA"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "DORA" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "IFRS 17"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "IFRS 17" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Local Banking Law"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Local Banking Law" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Audit_Finding_Severity {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Audit Finding Severity"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Critical"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Critical" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "High"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "High" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Medium"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Medium" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Low"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Low" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Informational"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Informational" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Compliance_Status {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Compliance Status"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Open"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Open" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "In Remediation"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "In Remediation" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Closed"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Closed" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Escalated"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Escalated" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Regulatory Submission"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Regulatory Submission" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}

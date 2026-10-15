@@ -1,0 +1,305 @@
+mutation CreatePT_IBKInsuranceDocType {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKInsuranceDocType"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Insurance Document Type" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKPolicyNumber {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKPolicyNumber"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Policy Number" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKInsuranceProduct {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKInsuranceProduct"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Insurance Product" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKInsuredName {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKInsuredName"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Insured Name" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKPremiumAmount {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DOUBLE
+    propertyTemplateProperties: {
+      symbolicName: "IBKPremiumAmount"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Premium Amount" }]
+      }
+      subPropertyTemplateFloat64Properties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKSumInsured {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DOUBLE
+    propertyTemplateProperties: {
+      symbolicName: "IBKSumInsured"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Sum Insured" }]
+      }
+      subPropertyTemplateFloat64Properties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKPolicyStartDate {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DATE
+    propertyTemplateProperties: {
+      symbolicName: "IBKPolicyStartDate"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Policy Start Date" }]
+      }
+      subPropertyTemplateDateTimeProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKPolicyEndDate {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DATE
+    propertyTemplateProperties: {
+      symbolicName: "IBKPolicyEndDate"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Policy End Date" }]
+      }
+      subPropertyTemplateDateTimeProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKUnderwritingDecision {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKUnderwritingDecision"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Underwriting Decision" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKClaimID {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKClaimID"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Claim ID" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKClaimStatus {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKClaimStatus"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Claim Status" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKClaimAmount {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DOUBLE
+    propertyTemplateProperties: {
+      symbolicName: "IBKClaimAmount"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Claim Amount" }]
+      }
+      subPropertyTemplateFloat64Properties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKLossDate {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DATE
+    propertyTemplateProperties: {
+      symbolicName: "IBKLossDate"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Loss Date" }]
+      }
+      subPropertyTemplateDateTimeProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKReinsuranceType {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKReinsuranceType"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Reinsurance Type" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKTreatyID {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKTreatyID"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Treaty ID" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKSolvencyRatio {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DOUBLE
+    propertyTemplateProperties: {
+      symbolicName: "IBKSolvencyRatio"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Solvency Ratio (%)" }]
+      }
+      subPropertyTemplateFloat64Properties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKReportingPeriod {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKReportingPeriod"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Reporting Period" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}

@@ -1,0 +1,233 @@
+mutation CreatePT_IBKOpsDocType {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKOpsDocType"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Ops Document Type" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKVendorID {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKVendorID"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Vendor ID" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKVendorName {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKVendorName"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Vendor Name" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKContractID {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKContractID"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Contract ID" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKContractStatus {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKContractStatus"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Contract Status" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKContractValue {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DOUBLE
+    propertyTemplateProperties: {
+      symbolicName: "IBKContractValue"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Contract Value" }]
+      }
+      subPropertyTemplateFloat64Properties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKInvoiceNumber {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKInvoiceNumber"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Invoice Number" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKInvoiceAmount {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DOUBLE
+    propertyTemplateProperties: {
+      symbolicName: "IBKInvoiceAmount"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Invoice Amount" }]
+      }
+      subPropertyTemplateFloat64Properties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKInvoiceStatus {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKInvoiceStatus"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Invoice Status" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKEmployeeID {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKEmployeeID"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Employee ID" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKEmployeeName {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKEmployeeName"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Employee Name" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKDepartment {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKDepartment"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Department" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKLegacySourcePath {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKLegacySourcePath"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Legacy Source Path" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}

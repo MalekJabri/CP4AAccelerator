@@ -1,0 +1,588 @@
+mutation CreateChoiceList_IBK__Document_Type_General {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Document Type (General)"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Loan Agreement"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Loan Agreement" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Insurance Policy"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Insurance Policy" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Account Statement"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Account Statement" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Compliance Report"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Compliance Report" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "KYC / AML Record"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "KYC / AML Record" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Trade Confirmation"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Trade Confirmation" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Customer Correspondence"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Customer Correspondence" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Internal Memo"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Internal Memo" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Regulatory Filing"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Regulatory Filing" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Audit Report"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Audit Report" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Contract"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Contract" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Invoice"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Invoice" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Other"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Other" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Confidentiality_Level {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Confidentiality Level"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Public"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Public" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Internal"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Internal" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Confidential"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Confidential" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Strictly Confidential"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Strictly Confidential" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Document_Status {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Document Status"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Draft"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Draft" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Under Review"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Under Review" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Approved"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Approved" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Archived"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Archived" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Superseded"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Superseded" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Expired"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Expired" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Approval_Decision {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Approval Decision"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Approved"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Approved" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Rejected"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Rejected" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Rework Required"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Rework Required" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Pending"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Pending" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Language {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Language"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "English"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "English" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "German"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "German" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Spanish"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Spanish" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "French"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "French" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Multilingual"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Multilingual" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Country___Jurisdiction {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Country / Jurisdiction"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Germany"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Germany" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Spain"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Spain" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "France"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "France" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "United Kingdom"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "United Kingdom" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "United States"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "United States" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Switzerland"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Switzerland" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Luxembourg"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Luxembourg" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Netherlands"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Netherlands" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Other"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Other" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Currency {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Currency"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "EUR"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "EUR" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "USD"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "USD" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "GBP"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "GBP" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "CHF"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "CHF" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "JPY"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "JPY" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Other"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Other" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Customer_Segment {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Customer Segment"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Retail"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Retail" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "SME"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "SME" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Corporate"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Corporate" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Institutional"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Institutional" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Private Banking"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Private Banking" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "High Net Worth"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "High Net Worth" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Product_Line {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Product Line"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Retail Banking"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Retail Banking" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Corporate Banking"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Corporate Banking" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Institutional Banking"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Institutional Banking" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Wealth Management"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Wealth Management" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Life Insurance"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Life Insurance" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Non-Life Insurance"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Non-Life Insurance" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Asset Management"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Asset Management" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Operations"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Operations" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}

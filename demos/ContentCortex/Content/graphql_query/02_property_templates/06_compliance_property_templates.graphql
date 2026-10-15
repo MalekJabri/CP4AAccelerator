@@ -1,0 +1,179 @@
+mutation CreatePT_IBKCompDocType {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKCompDocType"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Compliance Document Type" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKRegulatoryFramework {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKRegulatoryFramework"
+      cardinality: LIST
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Regulatory Framework" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKCaseID {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKCaseID"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Case ID" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKAuditFindingSeverity {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKAuditFindingSeverity"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Audit Finding Severity" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKComplianceStatus {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKComplianceStatus"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Compliance Status" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKRegulatorName {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKRegulatorName"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Regulator Name" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKSubmissionDeadline {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DATE
+    propertyTemplateProperties: {
+      symbolicName: "IBKSubmissionDeadline"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Submission Deadline" }]
+      }
+      subPropertyTemplateDateTimeProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKDataSubjectID {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKDataSubjectID"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Data Subject ID" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKRemediationOwner {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKRemediationOwner"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Remediation Owner" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKRemediationDeadline {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DATE
+    propertyTemplateProperties: {
+      symbolicName: "IBKRemediationDeadline"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Remediation Deadline" }]
+      }
+      subPropertyTemplateDateTimeProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}

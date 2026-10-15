@@ -1,0 +1,309 @@
+mutation CreateChoiceList_IBK__Retail_Document_Type {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Retail Document Type"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Personal Loan Agreement"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Personal Loan Agreement" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Mortgage Deed"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Mortgage Deed" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Account Opening Form"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Account Opening Form" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "KYC Form"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "KYC Form" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "AML Screening Report"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "AML Screening Report" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Credit Bureau Report"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Credit Bureau Report" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Income Verification"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Income Verification" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Employment Certificate"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Employment Certificate" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Bank Statement"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Bank Statement" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Insurance Certificate"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Insurance Certificate" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Account Statement"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Account Statement" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Customer Complaint"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Customer Complaint" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Correspondence"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Correspondence" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Other"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Other" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Loan_Purpose {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Loan Purpose"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Home Purchase"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Home Purchase" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Home Renovation"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Home Renovation" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Car Purchase"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Car Purchase" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Personal Consumption"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Personal Consumption" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Education"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Education" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Debt Consolidation"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Debt Consolidation" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Business"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Business" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Other"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Other" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__KYC_Status {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – KYC Status"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Pending"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Pending" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "In Progress"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "In Progress" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Completed"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Completed" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Failed"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Failed" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Requires Refresh"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Requires Refresh" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}
+
+mutation CreateChoiceList_IBK__Collateral_Type {
+  admCreateChoiceList(
+    repositoryIdentifier: "OS1"
+    choiceListProperties: {
+      dataType: STRING
+      displayName: "IBK – Collateral Type"
+      choiceValues: {
+        replace: [
+          {
+            insertAction: {}
+            choiceType: STRING
+            choiceStringValue: "Residential Property"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Residential Property" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Commercial Property"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Commercial Property" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Vehicle"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Vehicle" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Securities"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Securities" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Cash Deposit"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Cash Deposit" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Guarantee"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Guarantee" }]
+            }
+          }
+          {
+            choiceType: STRING
+            choiceStringValue: "Other"
+            displayNames: {
+              replace: [{ localeName: "en-us", localizedText: "Other" }]
+            }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+    displayName
+  }
+}

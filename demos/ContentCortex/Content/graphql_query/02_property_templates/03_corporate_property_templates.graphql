@@ -1,0 +1,269 @@
+mutation CreatePT_IBKCorpDocType {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKCorpDocType"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Corporate Document Type" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKFacilityID {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKFacilityID"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Facility ID" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKFacilityAmount {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DOUBLE
+    propertyTemplateProperties: {
+      symbolicName: "IBKFacilityAmount"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Facility Amount" }]
+      }
+      subPropertyTemplateFloat64Properties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKFacilityType {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKFacilityType"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Facility Type" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKBorrowerName {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKBorrowerName"
+      cardinality: LIST
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Borrower Name" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKLenderName {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKLenderName"
+      cardinality: LIST
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Lender Name" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKAgentBank {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKAgentBank"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Agent Bank" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKMarginBPS {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: LONG
+    propertyTemplateProperties: {
+      symbolicName: "IBKMarginBPS"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Margin (bps)" }]
+      }
+      subPropertyTemplateInteger32Properties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKTradeInstrument {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKTradeInstrument"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Trade Finance Instrument" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKTradeID {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKTradeID"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Trade ID" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKTradeDate {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DATE
+    propertyTemplateProperties: {
+      symbolicName: "IBKTradeDate"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Trade Date" }]
+      }
+      subPropertyTemplateDateTimeProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKSettlementDate {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DATE
+    propertyTemplateProperties: {
+      symbolicName: "IBKSettlementDate"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Settlement Date" }]
+      }
+      subPropertyTemplateDateTimeProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKNotionalAmount {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DOUBLE
+    propertyTemplateProperties: {
+      symbolicName: "IBKNotionalAmount"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Notional Amount" }]
+      }
+      subPropertyTemplateFloat64Properties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKEDDRiskRating {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKEDDRiskRating"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "EDD Risk Rating" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_IBKUBOName {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "IBKUBOName"
+      cardinality: LIST
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Ultimate Beneficial Owner" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
