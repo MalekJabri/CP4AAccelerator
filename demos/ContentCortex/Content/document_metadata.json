@@ -1,0 +1,399 @@
+{
+  "_comment": "Document metadata manifest for the IBK Insurance & Banking ECM demo. Each entry maps a relative path (from content_to_upload/) to its Content Cortex document class and properties. Paths use forward slashes. The 'attributes' object contains the exact property names expected by the IBM Content Cortex AI pipeline.",
+  "objectStore": "OS1",
+  "documents": [
+
+    {
+      "path": "Insurance & Banking/Retail Banking/Loan Origination/Hans Müller — LN-2024-00142/01 – Application/IBK-RETAIL-01_Personal-Loan-Application_Hans-Mueller.pdf",
+      "documentClass": "IBKRetailDocument",
+      "attributes": {
+        "IBKRetailDocType": "Personal Loan Application",
+        "IBKLoanID": "LN-2024-00142",
+        "IBKCustomerID": "CUS-2024-00312",
+        "IBKLoanPurpose": "Personal Consumption",
+        "IBKLoanAmount": 25000,
+        "IBKDocumentStatus": "Draft"
+      }
+    },
+    {
+      "path": "Insurance & Banking/Retail Banking/Loan Origination/Hans Müller — LN-2024-00142/02 – Income & Employment/IBK-RETAIL-01_Employment-Certificate_Siemens-AG.pdf",
+      "documentClass": "IBKRetailDocument",
+      "attributes": {
+        "IBKRetailDocType": "Employment Certificate",
+        "IBKLoanID": "LN-2024-00142",
+        "IBKCustomerID": "CUS-2024-00312",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+    {
+      "path": "Insurance & Banking/Retail Banking/Loan Origination/Hans Müller — LN-2024-00142/03 – Credit Assessment/IBK-RETAIL-01_Credit-Bureau-Report_Hans-Mueller.pdf",
+      "documentClass": "IBKRetailDocument",
+      "attributes": {
+        "IBKRetailDocType": "Credit Bureau Report",
+        "IBKLoanID": "LN-2024-00142",
+        "IBKCustomerID": "CUS-2024-00312",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+    {
+      "path": "Insurance & Banking/Retail Banking/Loan Origination/Hans Müller — LN-2024-00142/05 – Approved Loan Documents/IBK-RETAIL-01_Personal-Loan-Agreement_Hans-Mueller.pdf",
+      "documentClass": "IBKRetailDocument",
+      "attributes": {
+        "IBKRetailDocType": "Personal Loan Agreement",
+        "IBKLoanID": "LN-2024-00142",
+        "IBKCustomerID": "CUS-2024-00312",
+        "IBKLoanAmount": 25000,
+        "IBKInterestRate": 4.95,
+        "IBKMaturityDate": "2029-04-15",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+
+    {
+      "path": "Insurance & Banking/Retail Banking/Mortgages/María García — LN-2024-00201/01 – Application/IBK-RETAIL-02_Mortgage-Application_Maria-Garcia.pdf",
+      "documentClass": "IBKRetailDocument",
+      "attributes": {
+        "IBKRetailDocType": "Mortgage Deed",
+        "IBKLoanID": "LN-2024-00201",
+        "IBKCustomerID": "CUS-2024-00198",
+        "IBKLoanPurpose": "Home Purchase",
+        "IBKLoanAmount": 285000,
+        "IBKCollateralType": "Residential Property",
+        "IBKDocumentStatus": "Draft"
+      }
+    },
+    {
+      "path": "Insurance & Banking/Retail Banking/Mortgages/María García — LN-2024-00201/02 – Property Valuation/IBK-RETAIL-02_Property-Valuation-Report_Calle-Mayor-15.pdf",
+      "documentClass": "IBKRetailDocument",
+      "attributes": {
+        "IBKRetailDocType": "Other",
+        "IBKLoanID": "LN-2024-00201",
+        "IBKCustomerID": "CUS-2024-00198",
+        "IBKCollateralType": "Residential Property",
+        "IBKCollateralValue": 392000,
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+
+    {
+      "path": "Insurance & Banking/Retail Banking/KYC & AML/Sophie Martin — CUS-2024-00389/Identification Documents/IBK-RETAIL-03_KYC-Onboarding-Form_Sophie-Martin.pdf",
+      "documentClass": "IBKRetailDocument",
+      "attributes": {
+        "IBKRetailDocType": "KYC Form",
+        "IBKCustomerID": "CUS-2024-00389",
+        "IBKKYCStatus": "Completed",
+        "IBKCountryJurisdiction": "France",
+        "IBKLanguage": "English",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+    {
+      "path": "Insurance & Banking/Retail Banking/KYC & AML/Sophie Martin — CUS-2024-00389/AML Screening/IBK-RETAIL-03_AML-Screening-Report_Sophie-Martin.pdf",
+      "documentClass": "IBKRetailDocument",
+      "attributes": {
+        "IBKRetailDocType": "AML Screening Report",
+        "IBKCustomerID": "CUS-2024-00389",
+        "IBKKYCStatus": "Completed",
+        "IBKCountryJurisdiction": "France",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+
+    {
+      "path": "Insurance & Banking/Retail Banking/Account Statements/James Wilson/2024/IBK-RETAIL-04_Account-Statement_March-2024_James-Wilson.pdf",
+      "documentClass": "IBKRetailDocument",
+      "attributes": {
+        "IBKRetailDocType": "Account Statement",
+        "IBKCustomerID": "CUS-2023-00781",
+        "IBKAccountNumber": "GB29IBKB60013112345678",
+        "IBKStatementPeriodStart": "2024-03-01",
+        "IBKStatementPeriodEnd": "2024-03-31",
+        "IBKCountryJurisdiction": "United Kingdom",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+
+    {
+      "path": "Insurance & Banking/Corporate & Institutional Banking/Loan & Credit Files/Meridian Industrials GmbH — FAC-2024-0077/01 – Term Sheet & Mandate/IBK-CORP-01_Term-Sheet_Meridian-Industrials.pdf",
+      "documentClass": "IBKCorporateDocument",
+      "attributes": {
+        "IBKCorpDocType": "Syndicated Loan Agreement",
+        "IBKFacilityID": "FAC-2024-0077",
+        "IBKBorrowerName": "Meridian Industrials GmbH",
+        "IBKFacilityAmount": 150000000,
+        "IBKFacilityType": "Syndicated Loan",
+        "IBKAgentBank": "IBK Bank AG",
+        "IBKMarginBPS": 175,
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+
+    {
+      "path": "Insurance & Banking/Corporate & Institutional Banking/Trade Finance/Iberia Export SA/Letters of Credit/IBK-CORP-02_LC-Application_Iberia-Export-SA.pdf",
+      "documentClass": "IBKCorporateDocument",
+      "attributes": {
+        "IBKCorpDocType": "Letter of Credit",
+        "IBKTradeID": "LC-IBK-2024-ES-00341",
+        "IBKTradeInstrument": "Documentary Credit",
+        "IBKNotionalAmount": 480000,
+        "IBKTradeDate": "2024-02-22",
+        "IBKCountryJurisdiction": "Spain",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+
+    {
+      "path": "Insurance & Banking/Corporate & Institutional Banking/Capital Markets/Trade Confirmations/2024/IBK-CORP-03_IRS-Trade-Confirmation_Nexum-Asset-Management.pdf",
+      "documentClass": "IBKCorporateDocument",
+      "attributes": {
+        "IBKCorpDocType": "Trade Confirmation",
+        "IBKTradeID": "TRD-IRS-2024-00891",
+        "IBKTradeInstrument": "Other",
+        "IBKNotionalAmount": 50000000,
+        "IBKTradeDate": "2024-03-05",
+        "IBKSettlementDate": "2024-03-07",
+        "IBKCurrency": "EUR",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+
+    {
+      "path": "Insurance & Banking/Corporate & Institutional Banking/KYC & EDD/Nexus Holdings SAS — CUS-2024-00512/EDD Reports/IBK-CORP-04_EDD-Report_Nexus-Holdings-SAS.pdf",
+      "documentClass": "IBKCorporateDocument",
+      "attributes": {
+        "IBKCorpDocType": "EDD Report",
+        "IBKCustomerID": "CUS-2024-00512",
+        "IBKEDDRiskRating": "High",
+        "IBKCountryJurisdiction": "France",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+
+    {
+      "path": "Insurance & Banking/Wealth Management/Private Clients/Alexander von Richter — PF-2024-0031/02 – Suitability & IPS/IBK-WM-01_Suitability-Assessment_Alexander-von-Richter.pdf",
+      "documentClass": "IBKWealthDocument",
+      "attributes": {
+        "IBKWealthDocType": "Suitability Assessment",
+        "IBKPortfolioID": "PF-2024-0031",
+        "IBKRiskProfile": "Growth",
+        "IBKAUMValue": 3000000,
+        "IBKRelationshipManager": "Sebastian Koch",
+        "IBKPortfolioCurrency": "EUR",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+    {
+      "path": "Insurance & Banking/Wealth Management/Private Clients/Alexander von Richter — PF-2024-0031/04 – Portfolio Reports/2024-Q4/IBK-WM-02_Quarterly-Portfolio-Report_Q4-2024_von-Richter.pdf",
+      "documentClass": "IBKWealthDocument",
+      "attributes": {
+        "IBKWealthDocType": "Portfolio Report",
+        "IBKPortfolioID": "PF-2024-0031",
+        "IBKRiskProfile": "Growth",
+        "IBKAUMValue": 3187450,
+        "IBKPortfolioCurrency": "EUR",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+
+    {
+      "path": "Insurance & Banking/Wealth Management/Trust & Estates/Beaumont Family Trust — TR-2024-0009/Trust Deed/IBK-WM-03_Trust-Deed_Beaumont-Family-Trust.pdf",
+      "documentClass": "IBKWealthDocument",
+      "attributes": {
+        "IBKWealthDocType": "Trust Deed",
+        "IBKTrustID": "TR-2024-0009",
+        "IBKTrustType": "Discretionary Trust",
+        "IBKSettlorName": "Sir Edward Beaumont",
+        "IBKBeneficiaryName": "James Beaumont; Sophia Beaumont; Oliver Beaumont",
+        "IBKCountryJurisdiction": "United Kingdom",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+
+    {
+      "path": "Insurance & Banking/Insurance/Life Insurance/Policies/Karl Fischer — POL-LIFE-2024-00891/02 – Underwriting/IBK-INS-01_Underwriting-Memo_Karl-Fischer.pdf",
+      "documentClass": "IBKInsuranceDocument",
+      "attributes": {
+        "IBKInsuranceDocType": "Underwriting Memo",
+        "IBKPolicyNumber": "POL-LIFE-2024-00891",
+        "IBKInsuredName": "Karl Fischer",
+        "IBKUnderwritingDecision": "Accepted Standard",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+    {
+      "path": "Insurance & Banking/Insurance/Life Insurance/Policies/Karl Fischer — POL-LIFE-2024-00891/03 – Policy Documents/IBK-INS-01_Life-Insurance-Policy-Schedule_Karl-Fischer.pdf",
+      "documentClass": "IBKInsuranceDocument",
+      "attributes": {
+        "IBKInsuranceDocType": "Policy Schedule",
+        "IBKPolicyNumber": "POL-LIFE-2024-00891",
+        "IBKInsuranceProduct": "Term Life",
+        "IBKInsuredName": "Karl Fischer",
+        "IBKPremiumAmount": 1248,
+        "IBKSumInsured": 500000,
+        "IBKPolicyStartDate": "2024-05-01",
+        "IBKPolicyEndDate": "2044-05-01",
+        "IBKUnderwritingDecision": "Accepted Standard",
+        "IBKCurrency": "EUR",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+    {
+      "path": "Insurance & Banking/Insurance/Life Insurance/Policies/Karl Fischer — POL-LIFE-2024-00892/03 – Policy Documents/IBK-INS-02_Life-Insurance-Policy-Schedule_Karl-Fischer.pdf",
+      "documentClass": "IBKInsuranceDocument",
+      "attributes": {
+        "IBKInsuranceDocType": "Policy Schedule",
+        "IBKPolicyNumber": "POL-LIFE-2024-00892",
+        "IBKInsuranceProduct": "Term Life (Reduced Cover)",
+        "IBKInsuredName": "Karl Fischer",
+        "IBKPremiumAmount": 648,
+        "IBKSumInsured": 250000,
+        "IBKPolicyStartDate": "2024-05-01",
+        "IBKPolicyEndDate": "2034-05-01",
+        "IBKUnderwritingDecision": "Accepted Standard (Modified Terms)",
+        "IBKCurrency": "EUR",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+
+    {
+      "path": "Insurance & Banking/Insurance/Property & Casualty/Claims/CLM-2024-04421 — POL-PC-2023-00654/Loss Report/IBK-INS-02_Motor-Claim-Form_Roberto-Fernandez.pdf",
+      "documentClass": "IBKInsuranceDocument",
+      "attributes": {
+        "IBKInsuranceDocType": "Claim Form",
+        "IBKClaimID": "CLM-2024-04421",
+        "IBKPolicyNumber": "POL-PC-2023-00654",
+        "IBKInsuranceProduct": "Motor",
+        "IBKClaimStatus": "Registered",
+        "IBKLossDate": "2024-05-11",
+        "IBKClaimAmount": 4800,
+        "IBKCountryJurisdiction": "Spain",
+        "IBKDocumentStatus": "Draft"
+      }
+    },
+    {
+      "path": "Insurance & Banking/Insurance/Property & Casualty/Claims/CLM-2024-04421 — POL-PC-2023-00654/Settlement/IBK-INS-02_Settlement-Letter_CLM-2024-04421.pdf",
+      "documentClass": "IBKInsuranceDocument",
+      "attributes": {
+        "IBKInsuranceDocType": "Settlement Letter",
+        "IBKClaimID": "CLM-2024-04421",
+        "IBKPolicyNumber": "POL-PC-2023-00654",
+        "IBKClaimStatus": "Settled",
+        "IBKClaimAmount": 6820,
+        "IBKCountryJurisdiction": "Spain",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+
+    {
+      "path": "Insurance & Banking/Insurance/Regulatory/Solvency II/2024/IBK-INS-04_Solvency-II-QRT-Narrative-Report_2024.pdf",
+      "documentClass": "IBKInsuranceDocument",
+      "attributes": {
+        "IBKInsuranceDocType": "Solvency II Report",
+        "IBKSolvencyRatio": 183,
+        "IBKReportingPeriod": "2024",
+        "IBKConfidentialityLevel": "Strictly Confidential",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+
+    {
+      "path": "Insurance & Banking/Compliance & Risk/Policy Register/GDPR — Data Protection Policy/IBK-COMP-01_Data-Protection-Policy_GDPR.pdf",
+      "documentClass": "IBKComplianceDocument",
+      "attributes": {
+        "IBKCompDocType": "Regulatory Policy",
+        "IBKRegulatoryFramework": "GDPR",
+        "IBKComplianceStatus": "Open",
+        "IBKApproverName": "IBK Group Board",
+        "IBKVersionLabel": "v3.2",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+    {
+      "path": "Insurance & Banking/Compliance & Risk/AML & Sanctions/SAR Filings/2024/IBK-COMP-02_SAR-Filing_2024-00089.pdf",
+      "documentClass": "IBKComplianceDocument",
+      "attributes": {
+        "IBKCompDocType": "SAR Filing",
+        "IBKCaseID": "SAR-2024-IBK-00089",
+        "IBKRegulatoryFramework": "AML5 / AML6",
+        "IBKComplianceStatus": "Regulatory Submission",
+        "IBKConfidentialityLevel": "Strictly Confidential",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+    {
+      "path": "Insurance & Banking/Compliance & Risk/Internal Audit/Retail Credit Review — AUD-2024-003/Findings/IBK-COMP-03_Internal-Audit-Report_Retail-Credit-AUD-2024-003.pdf",
+      "documentClass": "IBKComplianceDocument",
+      "attributes": {
+        "IBKCompDocType": "Internal Audit Report",
+        "IBKCaseID": "AUD-2024-003",
+        "IBKRegulatoryFramework": "Basel III / CRR",
+        "IBKAuditFindingSeverity": "High",
+        "IBKComplianceStatus": "Open",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+    {
+      "path": "Insurance & Banking/Compliance & Risk/GDPR & Data Privacy/Data Subject Requests/IBK-COMP-04_DSAR-Response_Charlotte-Bernard.pdf",
+      "documentClass": "IBKComplianceDocument",
+      "attributes": {
+        "IBKCompDocType": "Data Subject Request",
+        "IBKCaseID": "DSAR-2024-00178",
+        "IBKRegulatoryFramework": "GDPR",
+        "IBKDataSubjectID": "CUS-2022-00441",
+        "IBKComplianceStatus": "Closed",
+        "IBKCountryJurisdiction": "France",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+
+    {
+      "path": "Insurance & Banking/Operations/Vendor Management/CloudCore Technologies Ltd — VEN-2024-0041/Contracts/IBK-OPS-01_Master-Service-Agreement_CloudCore-Technologies.pdf",
+      "documentClass": "IBKOperationsDocument",
+      "attributes": {
+        "IBKOpsDocType": "Vendor Contract",
+        "IBKVendorID": "VEN-2024-0041",
+        "IBKVendorName": "CloudCore Technologies Ltd",
+        "IBKContractID": "CONTR-OPS-2024-0041",
+        "IBKContractStatus": "Active",
+        "IBKContractValue": 5550000,
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+    {
+      "path": "Insurance & Banking/Operations/Vendor Management/CloudCore Technologies Ltd — VEN-2024-0041/Invoices/IBK-OPS-01_Invoice_Q2-2024_CloudCore-Technologies.pdf",
+      "documentClass": "IBKOperationsDocument",
+      "attributes": {
+        "IBKOpsDocType": "Invoice",
+        "IBKVendorID": "VEN-2024-0041",
+        "IBKVendorName": "CloudCore Technologies Ltd",
+        "IBKInvoiceNumber": "CC-INV-2024-Q2-0089",
+        "IBKInvoiceAmount": 1337000,
+        "IBKInvoiceStatus": "Approved",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+    {
+      "path": "Insurance & Banking/Operations/Human Resources/Elena Moreau — EMP-2024-0817/Contract & Amendments/IBK-OPS-02_Employment-Contract_Elena-Moreau.pdf",
+      "documentClass": "IBKOperationsDocument",
+      "attributes": {
+        "IBKOpsDocType": "Employment Contract",
+        "IBKEmployeeID": "EMP-2024-0817",
+        "IBKEmployeeName": "Elena Moreau",
+        "IBKDepartment": "Digital Banking & Innovation",
+        "IBKCountryJurisdiction": "Germany",
+        "IBKDocumentStatus": "Approved"
+      }
+    },
+    {
+      "path": "Insurance & Banking/Operations/Legacy Migration/IBK-OPS-03_Legacy-Migration-Manifest_Operations-Archive.pdf",
+      "documentClass": "IBKOperationsDocument",
+      "attributes": {
+        "IBKOpsDocType": "Legacy Migration Manifest",
+        "IBKBatchID": "MIG-IBK-OPS-2024-003",
+        "IBKLegacySourcePath": "/OpenText Livelink 9.7.1/Operations Archive",
+        "IBKDocumentStatus": "Draft"
+      }
+    }
+
+  ]
+}
