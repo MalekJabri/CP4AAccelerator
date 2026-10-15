@@ -1,4 +1,4 @@
-mutation CreateChoiceList_IBK__Wealth_Document_Type {
+mutation CreateChoiceList_IBK_Wealth_Document_Type {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -121,7 +121,7 @@ mutation CreateChoiceList_IBK__Wealth_Document_Type {
   }
 }
 
-mutation CreateChoiceList_IBK__Risk_Profile {
+mutation CreateChoiceList_IBK_Risk_Profile {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -174,7 +174,7 @@ mutation CreateChoiceList_IBK__Risk_Profile {
   }
 }
 
-mutation CreateChoiceList_IBK__Portfolio_Currency {
+mutation CreateChoiceList_IBK_Portfolio_Currency {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -227,7 +227,7 @@ mutation CreateChoiceList_IBK__Portfolio_Currency {
   }
 }
 
-mutation CreateChoiceList_IBK__Trust_Type {
+mutation CreateChoiceList_IBK_Trust_Type {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {

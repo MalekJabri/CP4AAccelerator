@@ -1,4 +1,4 @@
-mutation CreateChoiceList_IBK__Compliance_Document_Type {
+mutation CreateChoiceList_IBK_Compliance_Document_Type {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -121,7 +121,7 @@ mutation CreateChoiceList_IBK__Compliance_Document_Type {
   }
 }
 
-mutation CreateChoiceList_IBK__Regulatory_Framework {
+mutation CreateChoiceList_IBK_Regulatory_Framework {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -209,7 +209,7 @@ mutation CreateChoiceList_IBK__Regulatory_Framework {
   }
 }
 
-mutation CreateChoiceList_IBK__Audit_Finding_Severity {
+mutation CreateChoiceList_IBK_Audit_Finding_Severity {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -262,7 +262,7 @@ mutation CreateChoiceList_IBK__Audit_Finding_Severity {
   }
 }
 
-mutation CreateChoiceList_IBK__Compliance_Status {
+mutation CreateChoiceList_IBK_Compliance_Status {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {

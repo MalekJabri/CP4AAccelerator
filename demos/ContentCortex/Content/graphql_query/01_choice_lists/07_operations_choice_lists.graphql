@@ -1,4 +1,4 @@
-mutation CreateChoiceList_IBK__Operations_Document_Type {
+mutation CreateChoiceList_IBK_Operations_Document_Type {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -100,7 +100,7 @@ mutation CreateChoiceList_IBK__Operations_Document_Type {
   }
 }
 
-mutation CreateChoiceList_IBK__Contract_Status {
+mutation CreateChoiceList_IBK_Contract_Status {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -153,7 +153,7 @@ mutation CreateChoiceList_IBK__Contract_Status {
   }
 }
 
-mutation CreateChoiceList_IBK__Invoice_Status {
+mutation CreateChoiceList_IBK_Invoice_Status {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {

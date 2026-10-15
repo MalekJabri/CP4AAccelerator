@@ -8,10 +8,10 @@ This directory contains the FileNet Content Services GraphQL mutations required 
 
 The GraphQL mutations must be executed in strict dependency order:
 
-1. **`01_choice_lists/`** — Choice lists must exist prior to referencing them in property templates.
-2. **`02_property_templates/`** — Property templates must exist prior to binding them to document and folder classes.
-3. **`03_document_classes/`** — Base class `IBKDocument` must be created first before its subclasses.
-4. **`04_folder_classes/`** — Base class `IBKFolder` must be created first before its subclasses.
+1. **`01_choice_lists/`** — Choice lists are created first.
+2. **`02_property_templates/`** — Property templates are created with choice list references bound via the corresponding choice list mutation identifier (e.g. `CreateChoiceList_IBK_Document_Type_General`).
+3. **`03_document_classes/`** — Base class `IBKDocument` is created first (subclass of `Document`), followed by all 6 line-of-business document classes (subclasses of `IBKDocument`).
+4. **`04_folder_classes/`** — Base class `IBKFolder` is created first (subclass of `Folder`), followed by all 8 line-of-business folder classes (subclasses of `IBKFolder`).
 
 ---
 
@@ -29,13 +29,13 @@ graphql_query/
 │   └── 07_operations_choice_lists.graphql     (3 operations choice lists)
 │
 ├── 02_property_templates/
-│   ├── 01_shared_property_templates.graphql     (19 shared property templates)
-│   ├── 02_retail_property_templates.graphql     (13 retail property templates)
-│   ├── 03_corporate_property_templates.graphql  (15 corporate property templates)
-│   ├── 04_wealth_property_templates.graphql     (12 wealth property templates)
-│   ├── 05_insurance_property_templates.graphql  (17 insurance property templates)
-│   ├── 06_compliance_property_templates.graphql (10 compliance property templates)
-│   └── 07_operations_property_templates.graphql (13 operations property templates)
+│   ├── 01_shared_property_templates.graphql     (19 shared property templates, choice lists linked)
+│   ├── 02_retail_property_templates.graphql     (13 retail property templates, choice lists linked)
+│   ├── 03_corporate_property_templates.graphql  (15 corporate property templates, choice lists linked)
+│   ├── 04_wealth_property_templates.graphql     (12 wealth property templates, choice lists linked)
+│   ├── 05_insurance_property_templates.graphql  (17 insurance property templates, choice lists linked)
+│   ├── 06_compliance_property_templates.graphql (10 compliance property templates, choice lists linked)
+│   └── 07_operations_property_templates.graphql (13 operations property templates, choice lists linked)
 │
 ├── 03_document_classes/
 │   ├── 01_IBKDocument.graphql           (Parent: Document, binds 19 shared properties)
@@ -65,6 +65,6 @@ graphql_query/
 | Artifact Category | Count | Details |
 |-------------------|-------|---------|
 | **Choice Lists** | 33 | 9 Shared, 4 Retail, 4 Corporate, 4 Wealth, 5 Insurance, 4 Compliance, 3 Operations |
-| **Property Templates** | 99 | 19 Shared, 13 Retail, 15 Corporate, 12 Wealth, 17 Insurance, 10 Compliance, 13 Operations |
+| **Property Templates** | 99 | 19 Shared, 13 Retail, 15 Corporate, 12 Wealth, 17 Insurance, 10 Compliance, 13 Operations (with choiceList identifier mapped) |
 | **Document Classes** | 7 | 1 Base (`IBKDocument`), 6 Subclasses (`IBKRetailDocument`, `IBKCorporateDocument`, `IBKWealthDocument`, `IBKInsuranceDocument`, `IBKComplianceDocument`, `IBKOperationsDocument`) |
 | **Folder Classes** | 9 | 1 Base (`IBKFolder`), 8 Subclasses (`IBKRetailCustomerFolder`, `IBKCorporateClientFolder`, `IBKWealthClientFolder`, `IBKPolicyFolder`, `IBKClaimFolder`, `IBKComplianceCaseFolder`, `IBKVendorFolder`, `IBKEmployeeFolder`) |

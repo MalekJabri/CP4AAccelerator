@@ -1,4 +1,4 @@
-mutation CreateChoiceList_IBK__Document_Type_General {
+mutation CreateChoiceList_IBK_Document_Type_General {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -107,7 +107,7 @@ mutation CreateChoiceList_IBK__Document_Type_General {
   }
 }
 
-mutation CreateChoiceList_IBK__Confidentiality_Level {
+mutation CreateChoiceList_IBK_Confidentiality_Level {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -153,7 +153,7 @@ mutation CreateChoiceList_IBK__Confidentiality_Level {
   }
 }
 
-mutation CreateChoiceList_IBK__Document_Status {
+mutation CreateChoiceList_IBK_Document_Status {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -213,7 +213,7 @@ mutation CreateChoiceList_IBK__Document_Status {
   }
 }
 
-mutation CreateChoiceList_IBK__Approval_Decision {
+mutation CreateChoiceList_IBK_Approval_Decision {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -259,7 +259,7 @@ mutation CreateChoiceList_IBK__Approval_Decision {
   }
 }
 
-mutation CreateChoiceList_IBK__Language {
+mutation CreateChoiceList_IBK_Language {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -312,7 +312,7 @@ mutation CreateChoiceList_IBK__Language {
   }
 }
 
-mutation CreateChoiceList_IBK__Country___Jurisdiction {
+mutation CreateChoiceList_IBK_Country_Jurisdiction {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -393,7 +393,7 @@ mutation CreateChoiceList_IBK__Country___Jurisdiction {
   }
 }
 
-mutation CreateChoiceList_IBK__Currency {
+mutation CreateChoiceList_IBK_Currency {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -453,7 +453,7 @@ mutation CreateChoiceList_IBK__Currency {
   }
 }
 
-mutation CreateChoiceList_IBK__Customer_Segment {
+mutation CreateChoiceList_IBK_Customer_Segment {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -513,7 +513,7 @@ mutation CreateChoiceList_IBK__Customer_Segment {
   }
 }
 
-mutation CreateChoiceList_IBK__Product_Line {
+mutation CreateChoiceList_IBK_Product_Line {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {

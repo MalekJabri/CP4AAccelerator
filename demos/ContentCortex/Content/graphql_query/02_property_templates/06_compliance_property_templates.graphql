@@ -8,6 +8,7 @@ mutation CreatePT_IBKCompDocType {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Compliance Document Type" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Compliance_Document_Type" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -26,6 +27,7 @@ mutation CreatePT_IBKRegulatoryFramework {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Regulatory Framework" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Regulatory_Framework" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -62,6 +64,7 @@ mutation CreatePT_IBKAuditFindingSeverity {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Audit Finding Severity" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Audit_Finding_Severity" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -80,6 +83,7 @@ mutation CreatePT_IBKComplianceStatus {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Compliance Status" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Compliance_Status" }
       subPropertyTemplateStringProperties: {}
     }
   ) {

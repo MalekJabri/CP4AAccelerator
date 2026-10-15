@@ -1,4 +1,4 @@
-mutation CreateChoiceList_IBK__Retail_Document_Type {
+mutation CreateChoiceList_IBK_Retail_Document_Type {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -114,7 +114,7 @@ mutation CreateChoiceList_IBK__Retail_Document_Type {
   }
 }
 
-mutation CreateChoiceList_IBK__Loan_Purpose {
+mutation CreateChoiceList_IBK_Loan_Purpose {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -188,7 +188,7 @@ mutation CreateChoiceList_IBK__Loan_Purpose {
   }
 }
 
-mutation CreateChoiceList_IBK__KYC_Status {
+mutation CreateChoiceList_IBK_KYC_Status {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -241,7 +241,7 @@ mutation CreateChoiceList_IBK__KYC_Status {
   }
 }
 
-mutation CreateChoiceList_IBK__Collateral_Type {
+mutation CreateChoiceList_IBK_Collateral_Type {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {

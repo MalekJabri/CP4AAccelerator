@@ -1,4 +1,4 @@
-mutation CreateChoiceList_IBK__Insurance_Document_Type {
+mutation CreateChoiceList_IBK_Insurance_Document_Type {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -149,7 +149,7 @@ mutation CreateChoiceList_IBK__Insurance_Document_Type {
   }
 }
 
-mutation CreateChoiceList_IBK__Insurance_Product {
+mutation CreateChoiceList_IBK_Insurance_Product {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -258,7 +258,7 @@ mutation CreateChoiceList_IBK__Insurance_Product {
   }
 }
 
-mutation CreateChoiceList_IBK__Claim_Status {
+mutation CreateChoiceList_IBK_Claim_Status {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -325,7 +325,7 @@ mutation CreateChoiceList_IBK__Claim_Status {
   }
 }
 
-mutation CreateChoiceList_IBK__Underwriting_Decision {
+mutation CreateChoiceList_IBK_Underwriting_Decision {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -371,7 +371,7 @@ mutation CreateChoiceList_IBK__Underwriting_Decision {
   }
 }
 
-mutation CreateChoiceList_IBK__Reinsurance_Type {
+mutation CreateChoiceList_IBK_Reinsurance_Type {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {

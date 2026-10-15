@@ -8,6 +8,7 @@ mutation CreatePT_IBKDocumentType {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Document Type" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Document_Type_General" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -26,6 +27,7 @@ mutation CreatePT_IBKConfidentialityLevel {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Confidentiality Level" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Confidentiality_Level" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -44,6 +46,7 @@ mutation CreatePT_IBKDocumentStatus {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Document Status" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Document_Status" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -62,6 +65,7 @@ mutation CreatePT_IBKApprovalDecision {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Approval Decision" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Approval_Decision" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -80,6 +84,7 @@ mutation CreatePT_IBKLanguage {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Language" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Language" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -98,6 +103,7 @@ mutation CreatePT_IBKCountryJurisdiction {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Country / Jurisdiction" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Country_Jurisdiction" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -116,6 +122,7 @@ mutation CreatePT_IBKCurrency {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Currency" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Currency" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -134,6 +141,7 @@ mutation CreatePT_IBKCustomerSegment {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Customer Segment" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Customer_Segment" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -152,6 +160,7 @@ mutation CreatePT_IBKProductLine {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Product Line" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Product_Line" }
       subPropertyTemplateStringProperties: {}
     }
   ) {

@@ -5,10 +5,10 @@ mutation CreateClass_IBKVendorFolder {
     classDefinitionProperties: {
       symbolicName: "IBKVendorFolder"
       displayNames: {
-        replace: [{ localeName: "en-us", localizedText: "IBKVendorFolder" }]
+        replace: [{ localeName: "en-us", localizedText: "IBK Vendor Folder" }]
       }
       descriptiveTexts: {
-        replace: [{ localeName: "en-us", localizedText: "IBKVendorFolder" }]
+        replace: [{ localeName: "en-us", localizedText: "IBK Vendor Folder" }]
       }
       propertyDefinitions: {
         modify: [

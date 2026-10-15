@@ -8,6 +8,7 @@ mutation CreatePT_IBKInsuranceDocType {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Insurance Document Type" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Insurance_Document_Type" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -44,6 +45,7 @@ mutation CreatePT_IBKInsuranceProduct {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Insurance Product" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Insurance_Product" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -152,6 +154,7 @@ mutation CreatePT_IBKUnderwritingDecision {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Underwriting Decision" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Underwriting_Decision" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -188,6 +191,7 @@ mutation CreatePT_IBKClaimStatus {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Claim Status" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Claim_Status" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -242,6 +246,7 @@ mutation CreatePT_IBKReinsuranceType {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Reinsurance Type" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Reinsurance_Type" }
       subPropertyTemplateStringProperties: {}
     }
   ) {

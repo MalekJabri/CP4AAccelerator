@@ -8,6 +8,7 @@ mutation CreatePT_IBKCorpDocType {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Corporate Document Type" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Corporate_Document_Type" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -62,6 +63,7 @@ mutation CreatePT_IBKFacilityType {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Facility Type" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Facility_Type" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -152,6 +154,7 @@ mutation CreatePT_IBKTradeInstrument {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Trade Finance Instrument" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Trade_Finance_Instrument" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -242,6 +245,7 @@ mutation CreatePT_IBKEDDRiskRating {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "EDD Risk Rating" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_EDD_Risk_Rating" }
       subPropertyTemplateStringProperties: {}
     }
   ) {

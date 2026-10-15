@@ -8,6 +8,7 @@ mutation CreatePT_IBKWealthDocType {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Wealth Document Type" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Wealth_Document_Type" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -44,6 +45,7 @@ mutation CreatePT_IBKRiskProfile {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Risk Profile" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Risk_Profile" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -62,6 +64,7 @@ mutation CreatePT_IBKPortfolioCurrency {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Portfolio Currency" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Portfolio_Currency" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -152,6 +155,7 @@ mutation CreatePT_IBKTrustType {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Trust Type" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Trust_Type" }
       subPropertyTemplateStringProperties: {}
     }
   ) {

@@ -8,6 +8,7 @@ mutation CreatePT_IBKOpsDocType {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Ops Document Type" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Operations_Document_Type" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -80,6 +81,7 @@ mutation CreatePT_IBKContractStatus {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Contract Status" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Contract_Status" }
       subPropertyTemplateStringProperties: {}
     }
   ) {
@@ -152,6 +154,7 @@ mutation CreatePT_IBKInvoiceStatus {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Invoice Status" }]
       }
+      choiceList: { identifier: "CreateChoiceList_IBK_Invoice_Status" }
       subPropertyTemplateStringProperties: {}
     }
   ) {

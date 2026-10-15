@@ -1,4 +1,4 @@
-mutation CreateChoiceList_IBK__Corporate_Document_Type {
+mutation CreateChoiceList_IBK_Corporate_Document_Type {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -149,7 +149,7 @@ mutation CreateChoiceList_IBK__Corporate_Document_Type {
   }
 }
 
-mutation CreateChoiceList_IBK__Trade_Finance_Instrument {
+mutation CreateChoiceList_IBK_Trade_Finance_Instrument {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -209,7 +209,7 @@ mutation CreateChoiceList_IBK__Trade_Finance_Instrument {
   }
 }
 
-mutation CreateChoiceList_IBK__Facility_Type {
+mutation CreateChoiceList_IBK_Facility_Type {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
@@ -276,7 +276,7 @@ mutation CreateChoiceList_IBK__Facility_Type {
   }
 }
 
-mutation CreateChoiceList_IBK__EDD_Risk_Rating {
+mutation CreateChoiceList_IBK_EDD_Risk_Rating {
   admCreateChoiceList(
     repositoryIdentifier: "OS1"
     choiceListProperties: {
