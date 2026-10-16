@@ -269,7 +269,7 @@ mutation CreatePT_IBKReviewerNotes {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Reviewer Notes" }]
       }
-      subPropertyTemplateStringProperties: {}
+      subPropertyTemplateStringProperties: { maximumLengthString: 1024 }
     }
   ) {
     id

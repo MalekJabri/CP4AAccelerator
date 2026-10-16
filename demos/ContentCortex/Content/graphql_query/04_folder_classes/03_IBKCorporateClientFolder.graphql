@@ -30,12 +30,6 @@ mutation CreateClass_IBKCorporateClientFolder {
             isValueRequired: false
             isHidden: false
           }
-          {
-            insertAction: {}
-            propertyTemplate: { identifier: "IBKCustomerSegment" }
-            isValueRequired: false
-            isHidden: false
-          }
         ]
       }
     }

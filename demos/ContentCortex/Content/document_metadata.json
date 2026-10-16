@@ -7,7 +7,7 @@
       "path": "Insurance & Banking/Retail Banking/Loan Origination/Hans Müller — LN-2024-00142/01 – Application/IBK-RETAIL-01_Personal-Loan-Application_Hans-Mueller.pdf",
       "documentClass": "IBKRetailDocument",
       "attributes": {
-        "IBKRetailDocType": "Personal Loan Application",
+        "IBKRetailDocType": "Other",
         "IBKLoanID": "LN-2024-00142",
         "IBKCustomerID": "CUS-2024-00312",
         "IBKLoanPurpose": "Personal Consumption",
@@ -119,7 +119,7 @@
       "attributes": {
         "IBKCorpDocType": "Syndicated Loan Agreement",
         "IBKFacilityID": "FAC-2024-0077",
-        "IBKBorrowerName": "Meridian Industrials GmbH",
+        "IBKBorrowerName": ["Meridian Industrials GmbH"],
         "IBKFacilityAmount": 150000000,
         "IBKFacilityType": "Syndicated Loan",
         "IBKAgentBank": "IBK Bank AG",
@@ -203,7 +203,7 @@
         "IBKTrustID": "TR-2024-0009",
         "IBKTrustType": "Discretionary Trust",
         "IBKSettlorName": "Sir Edward Beaumont",
-        "IBKBeneficiaryName": "James Beaumont; Sophia Beaumont; Oliver Beaumont",
+        "IBKBeneficiaryName": ["James Beaumont", "Sophia Beaumont", "Oliver Beaumont"],
         "IBKCountryJurisdiction": "United Kingdom",
         "IBKDocumentStatus": "Approved"
       }
@@ -243,13 +243,13 @@
       "attributes": {
         "IBKInsuranceDocType": "Policy Schedule",
         "IBKPolicyNumber": "POL-LIFE-2024-00892",
-        "IBKInsuranceProduct": "Term Life (Reduced Cover)",
+        "IBKInsuranceProduct": "Term Life",
         "IBKInsuredName": "Karl Fischer",
         "IBKPremiumAmount": 648,
         "IBKSumInsured": 250000,
         "IBKPolicyStartDate": "2024-05-01",
         "IBKPolicyEndDate": "2034-05-01",
-        "IBKUnderwritingDecision": "Accepted Standard (Modified Terms)",
+        "IBKUnderwritingDecision": "Accepted Non-standard",
         "IBKCurrency": "EUR",
         "IBKDocumentStatus": "Approved"
       }
@@ -301,7 +301,7 @@
       "documentClass": "IBKComplianceDocument",
       "attributes": {
         "IBKCompDocType": "Regulatory Policy",
-        "IBKRegulatoryFramework": "GDPR",
+        "IBKRegulatoryFramework": ["GDPR"],
         "IBKComplianceStatus": "Open",
         "IBKApproverName": "IBK Group Board",
         "IBKVersionLabel": "v3.2",
@@ -314,7 +314,7 @@
       "attributes": {
         "IBKCompDocType": "SAR Filing",
         "IBKCaseID": "SAR-2024-IBK-00089",
-        "IBKRegulatoryFramework": "AML5 / AML6",
+        "IBKRegulatoryFramework": ["AML5", "AML6"],
         "IBKComplianceStatus": "Regulatory Submission",
         "IBKConfidentialityLevel": "Strictly Confidential",
         "IBKDocumentStatus": "Approved"
@@ -326,7 +326,7 @@
       "attributes": {
         "IBKCompDocType": "Internal Audit Report",
         "IBKCaseID": "AUD-2024-003",
-        "IBKRegulatoryFramework": "Basel III / CRR",
+        "IBKRegulatoryFramework": ["Basel III", "CRR"],
         "IBKAuditFindingSeverity": "High",
         "IBKComplianceStatus": "Open",
         "IBKDocumentStatus": "Approved"
@@ -338,7 +338,7 @@
       "attributes": {
         "IBKCompDocType": "Data Subject Request",
         "IBKCaseID": "DSAR-2024-00178",
-        "IBKRegulatoryFramework": "GDPR",
+        "IBKRegulatoryFramework": ["GDPR"],
         "IBKDataSubjectID": "CUS-2022-00441",
         "IBKComplianceStatus": "Closed",
         "IBKCountryJurisdiction": "France",

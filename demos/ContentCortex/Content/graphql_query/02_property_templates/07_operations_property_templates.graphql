@@ -227,7 +227,7 @@ mutation CreatePT_IBKLegacySourcePath {
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Legacy Source Path" }]
       }
-      subPropertyTemplateStringProperties: {}
+      subPropertyTemplateStringProperties: { maximumLengthString: 512 }
     }
   ) {
     id
