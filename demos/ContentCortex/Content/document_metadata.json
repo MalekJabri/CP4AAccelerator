@@ -314,7 +314,7 @@
       "attributes": {
         "IBKCompDocType": "SAR Filing",
         "IBKCaseID": "SAR-2024-IBK-00089",
-        "IBKRegulatoryFramework": ["AML5", "AML6"],
+        "IBKRegulatoryFramework": ["AML5 / AML6"],
         "IBKComplianceStatus": "Regulatory Submission",
         "IBKConfidentialityLevel": "Strictly Confidential",
         "IBKDocumentStatus": "Approved"
@@ -326,7 +326,7 @@
       "attributes": {
         "IBKCompDocType": "Internal Audit Report",
         "IBKCaseID": "AUD-2024-003",
-        "IBKRegulatoryFramework": ["Basel III", "CRR"],
+        "IBKRegulatoryFramework": ["Basel III / CRR"],
         "IBKAuditFindingSeverity": "High",
         "IBKComplianceStatus": "Open",
         "IBKDocumentStatus": "Approved"
