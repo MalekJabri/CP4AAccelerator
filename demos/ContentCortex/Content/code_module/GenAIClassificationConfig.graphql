@@ -1,0 +1,318 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Property Templates — GenAI Classification Config
+# ──────────────────────────────────────────────────────────────────────────────
+
+mutation CreatePT_GAI_IsEnabled {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: BOOLEAN
+    propertyTemplateProperties: {
+      symbolicName: "GAI_IsEnabled"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Is Enabled" }]
+      }
+      subPropertyTemplateBooleanProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_GAI_Verbose {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: BOOLEAN
+    propertyTemplateProperties: {
+      symbolicName: "GAI_Verbose"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Verbose" }]
+      }
+      subPropertyTemplateBooleanProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_GAI_LLMModel {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "GAI_LLMModel"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "LLM Model" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_GAI_MaxChunks {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: LONG
+    propertyTemplateProperties: {
+      symbolicName: "GAI_MaxChunks"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Max Chunks" }]
+      }
+      subPropertyTemplateInteger32Properties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_GAI_PromptPrefix {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "GAI_PromptPrefix"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Prompt Prefix" }]
+      }
+      subPropertyTemplateStringProperties: { maximumLengthString: 4000 }
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_GAI_AllowedClasses {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "GAI_AllowedClasses"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Allowed Classes" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_GAI_BaseClass {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "GAI_BaseClass"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Base Class" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_GAI_FallbackClass {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "GAI_FallbackClass"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Fallback Class" }]
+      }
+      subPropertyTemplateStringProperties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_GAI_RelevancyFilterLevel {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DOUBLE
+    propertyTemplateProperties: {
+      symbolicName: "GAI_RelevancyFilterLevel"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Relevancy Filter Level" }]
+      }
+      subPropertyTemplateFloat64Properties: {}
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+mutation CreatePT_GAI_ExcludedProperties {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: STRING
+    propertyTemplateProperties: {
+      symbolicName: "GAI_ExcludedProperties"
+      cardinality: LIST
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Excluded Properties" }]
+      }
+      subPropertyTemplateStringProperties: { maximumLengthString: 1000 }
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Class Definition — GenAIClassificationConfig
+# Superclass: CmAbstractPersistable
+# ──────────────────────────────────────────────────────────────────────────────
+
+mutation CreateClass_GenAIClassificationConfig {
+  admCreateClassDefinition(
+    repositoryIdentifier: "OS1"
+    superclassIdentifier: "CmAbstractPersistable"
+    classDefinitionProperties: {
+      symbolicName: "GenAIClassificationConfig"
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "GenAI Classification Config" }]
+      }
+      descriptiveTexts: {
+        replace: [{ localeName: "en-us", localizedText: "GenAI Classification Config" }]
+      }
+      propertyDefinitions: {
+        modify: [
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "GAI_IsEnabled" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "GAI_Verbose" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "GAI_LLMModel" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "GAI_MaxChunks" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "GAI_PromptPrefix" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "GAI_AllowedClasses" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "GAI_BaseClass" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "GAI_FallbackClass" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "GAI_RelevancyFilterLevel" }
+            isValueRequired: false
+            isHidden: false
+          }
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "GAI_ExcludedProperties" }
+            isValueRequired: false
+            isHidden: false
+          }
+        ]
+      }
+    }
+  ) {
+    className
+    id
+    symbolicName
+    displayName
+  }
+}
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Instance Creation — GenAIClassificationConfig default config object
+# Default values taken from GenAIClassificationConfig.java constants
+# ──────────────────────────────────────────────────────────────────────────────
+
+mutation CreateInstance_GenAIClassificationConfig {
+  createCmAbstractPersistable(
+    repositoryIdentifier: "OS1"
+    classIdentifier: "GenAIClassificationConfig"
+    cmAbstractPersistableProperties: {
+      properties: [
+        { GAI_IsEnabled:           true }
+        { GAI_Verbose:             false }
+        { GAI_LLMModel:            "meta-llama/llama-4-maverick-17b-128e-instruct-fp8" }
+        { GAI_MaxChunks:           6 }
+        { GAI_PromptPrefix:        "<|begin_of_text|>\n<|header_start|>system<|header_end|>You are an AI model specialized in document classification and metadata extraction. You are precise, consistent, and strictly follow instructions. You only respond with valid JSON objects. You never add explanations, comments, markdown, or any text outside the JSON object. You never repeat information. You do not reveal or infer any personally identifiable information (PII).<|eot|>\n<|header_start|>user<|header_end|>\n<context>{chunk_data}</context>{orig_prompt}<|eot|>\n<|header_start|>assistant<|header_end|>" }
+        { GAI_BaseClass:           "ToBeClassified" }
+        { GAI_FallbackClass:       "" }
+        { GAI_RelevancyFilterLevel: 0.5 }
+        # GAI_AllowedClasses and GAI_ExcludedProperties left unset → default behaviour
+      ]
+    }
+  ) {
+    id
+    className
+    properties(
+      includes: [
+        "GAI_IsEnabled"
+        "GAI_Verbose"
+        "GAI_LLMModel"
+        "GAI_MaxChunks"
+        "GAI_PromptPrefix"
+        "GAI_BaseClass"
+        "GAI_FallbackClass"
+        "GAI_RelevancyFilterLevel"
+        "GAI_AllowedClasses"
+        "GAI_ExcludedProperties"
+      ]
+    ) {
+      alias
+      value
+    }
+  }
+}

@@ -1,0 +1,30 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Class Definition — ToBeClassified
+# Superclass : Document
+# Purpose    : Catch-all staging class for documents that have not yet been
+#              classified by the GenAI Classification event handler.
+#              Intentionally has no custom properties — all classification work
+#              is performed by the handler, which re-files the document under the
+#              appropriate subclass once classification is complete.
+# ──────────────────────────────────────────────────────────────────────────────
+
+mutation CreateClass_ToBeClassified {
+  admCreateClassDefinition(
+    repositoryIdentifier: "OS1"
+    superclassIdentifier: "Document"
+    classDefinitionProperties: {
+      symbolicName: "ToBeClassified"
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "To Be Classified" }]
+      }
+      descriptiveTexts: {
+        replace: [{ localeName: "en-us", localizedText: "Staging class for documents awaiting GenAI classification" }]
+      }
+    }
+  ) {
+    className
+    id
+    symbolicName
+    displayName
+  }
+}

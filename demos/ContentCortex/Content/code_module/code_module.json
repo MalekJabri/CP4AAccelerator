@@ -1,0 +1,58 @@
+{
+  "_comment": [
+    "code_module.json — descriptor for a FileNet CodeModule deployment.",
+    "",
+    "Fields:",
+    "  objectStore      : symbolic name of the target object store (default: 'OS1')",
+    "  moduleDocName    : display name of the CodeModule document in FileNet",
+    "  filingFolder     : FileNet folder path where the CodeModule is filed (must exist)",
+    "  jars             : ordered list of JAR entries to embed in the CodeModule.",
+    "                     Each entry has:",
+    "                       'file'        — filename relative to this code_module/ directory",
+    "                       'retrievalName' — the name FileNet uses when serving the JAR",
+    "  eventActions     : list of EventAction descriptors to create.",
+    "                     Each entry has:",
+    "                       'displayName' — human-readable name",
+    "                       'progId'      — fully-qualified class name of the event handler",
+    "  subscriptions    : list of Subscription descriptors to create.",
+    "                     Each entry has:",
+    "                       'displayName'      — human-readable name",
+    "                       'eventActionIndex' — 0-based index into eventActions[]",
+    "                       'subscribedClass'  — symbolic name of the FileNet document class",
+    "                       'subscribedEvent'  — FileNet event type (e.g. UpdateEvent, CreationEvent)",
+    "                       'includeSubclasses'— whether to include subclasses (boolean)",
+    "                       'isSynchronous'    — synchronous execution (boolean)",
+    "                       'isEnabled'        — subscription enabled (boolean)",
+    "                       'filterExpression' — (optional) CMIS WHERE clause, or null/omitted"
+  ],
+  "objectStore": "OS1",
+  "moduleDocName": "Core-MJ Module",
+  "filingFolder": "/CodeModules",
+  "jars": [
+    { "file": "CoreP8.jar",                    "retrievalName": "CoreP8.jar" },
+    { "file": "poi-5.4.0.jar",                 "retrievalName": "poi-5.4.0.jar" },
+    { "file": "poi-ooxml-4.1.2.jar",           "retrievalName": "poi-ooxml-4.1.2.jar" },
+    { "file": "poi-ooxml-schemas-4.1.2.jar",   "retrievalName": "poi-ooxml-schemas-4.1.2.jar" },
+    { "file": "commons-compress-1.19.jar",      "retrievalName": "commons-compress-1.19.jar" },
+    { "file": "xmlbeans-5.3.0.jar",            "retrievalName": "xmlbeans-5.3.0.jar" },
+    { "file": "json-20240303.jar",             "retrievalName": "json-20240303.jar" }
+  ],
+  "eventActions": [
+    {
+      "displayName": "GenAI Classification Action",
+      "progId": "com.ibm.mj.core.eventHandler.GenAIClassificationDocEventHandler"
+    }
+  ],
+  "subscriptions": [
+    {
+      "displayName": "GenAI Classification Subscription",
+      "eventActionIndex": 0,
+      "subscribedClass": "ToBeClassified",
+      "subscribedEvent": "UpdateEvent",
+      "includeSubclasses": false,
+      "isSynchronous": false,
+      "isEnabled": true,
+      "filterExpression": "[GenaiDateIndexed] IS NOT NULL"
+    }
+  ]
+}
