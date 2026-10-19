@@ -1,0 +1,17 @@
+{
+  "_schema": "demo/v2",
+  "id": "TicketingSolution",
+  "title": "Ticketing Solution",
+  "description": "End-to-end IT service ticketing demonstration built on IBM BAW. Covers ticket creation, priority triage, assignment, escalation, and resolution tracking in a realistic helpdesk scenario.",
+  "type": "baw",
+  "supportTeam": "Malek Jabri",
+  "enabled": false,
+  "logs": false,
+  "autoUpdate": false,
+  "highlights": [
+    "Ticket intake and priority triage (BAW)",
+    "Automated assignment and escalation rules",
+    "Agent workspace and resolution tracking",
+    "SLA monitoring and reporting"
+  ]
+}

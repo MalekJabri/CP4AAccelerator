@@ -1,0 +1,24 @@
+{
+  "_schema": "demo/v2",
+  "id": "LifeClaimsManagement",
+  "path": "LifeInsuranceClaims",
+  "title": "Life Claims Management",
+  "description": "AI-powered life insurance claims processing built on IBM BAW and Watsonx AI. Streamlines beneficiary verification, document review, and settlement decisions for life insurance policies.",
+  "type": "baw,content",
+  "supportTeam": "Ryan Slattery",
+  "enabled": true,
+  "logs": false,
+  "autoUpdate": true,
+  "badge": "Watsonx AI",
+  "highlights": [
+    "Life insurance claims workflow (BAW)",
+    "AI document extraction and validation (Watsonx)",
+    "FileNet content repository for policy documents",
+    "BAI process analytics dashboard",
+    "Composer integration for beneficiary communications"
+  ],
+  "links": [
+    { "label": "Workplace", "url": "/icn/navigator/?desktop=baw&feature=bpmWorkDashboard" },
+    { "label": "BAI",       "url": "/bai-bpc" }
+  ]
+}

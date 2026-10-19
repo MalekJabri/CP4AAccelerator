@@ -1,0 +1,19 @@
+{
+  "_schema": "demo/v2",
+  "id": "PAM",
+  "path": "ParlementaryQuestion",
+  "title": "Parliamentary Question",
+  "description": "Automated handling of parliamentary questions using IBM BAW. Routes incoming questions to the appropriate ministry department, tracks SLA compliance, and produces structured responses for parliamentary submission.",
+  "type": "baw",
+  "supportTeam": "Malek Jabri",
+  "enabled": false,
+  "logs": false,
+  "autoUpdate": false,
+  "badge": "Coming Soon",
+  "highlights": [
+    "Parliamentary question intake and routing (BAW)",
+    "SLA tracking and escalation",
+    "Structured response authoring workflow",
+    "Multi-department collaboration"
+  ]
+}

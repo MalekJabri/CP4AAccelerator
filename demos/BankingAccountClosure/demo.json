@@ -1,0 +1,21 @@
+{
+  "_schema": "demo/v2",
+  "id": "BankingAccountClosure",
+  "title": "Banking Account Closure",
+  "description": "Process Mining analysis of the bank account closure process. Visualise bottlenecks, cycle-time outliers, and rework patterns across the end-to-end flow using IBM Process Mining.",
+  "type": "processmining",
+  "supportTeam": "Malek Jabri",
+  "enabled": true,
+  "logs": false,
+  "autoUpdate": false,
+  "badge": "Process Mining",
+  "highlights": [
+    "End-to-end account closure process discovery",
+    "Bottleneck and inefficiency identification",
+    "Cycle-time and conformance analysis",
+    "IBM Process Mining integration"
+  ],
+  "links": [
+    { "label": "Process Mining", "url": "/processmining" }
+  ]
+}

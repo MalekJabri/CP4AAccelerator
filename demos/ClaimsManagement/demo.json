@@ -1,0 +1,23 @@
+{
+  "_schema": "demo/v2",
+  "id": "ClaimsManagement",
+  "title": "Claims Management",
+  "description": "AI-assisted car accident insurance claims powered by Watsonx AI. Automates and optimises the full claims lifecycle — from first notice of loss through settlement — delivering faster, more accurate, and customer-friendly service.",
+  "type": "baw,content",
+  "supportTeam": "Malek Jabri",
+  "enabled": true,
+  "logs": false,
+  "autoUpdate": true,
+  "badge": "Watsonx AI",
+  "highlights": [
+    "End-to-end claims workflow (BAW)",
+    "AI document extraction and classification (Watsonx)",
+    "FileNet content repository for claim documents",
+    "BAI process analytics dashboard",
+    "Composer integration for automated correspondence"
+  ],
+  "links": [
+    { "label": "Workplace", "url": "/icn/navigator/?desktop=baw&feature=bpmWorkDashboard" },
+    { "label": "BAI",       "url": "/bai-bpc" }
+  ]
+}

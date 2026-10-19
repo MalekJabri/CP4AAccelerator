@@ -1,0 +1,23 @@
+{
+  "id": "ContentCortex",
+  "title": "Content Cortex",
+  "description": "A hands-on lab exploring IBM Content Services with GenAI-powered document classification. Documents are automatically classified and re-filed using a Watsonx LLM event handler deployed as a FileNet CodeModule.",
+  "type": "content",
+  "supportTeam": "Malek Jabri",
+  "enabled": true,
+  "logs": true,
+  "autoUpdate": false,
+  "badge": "Lab",
+  "highlights": [
+    "GenAI document classification via FileNet event handler",
+    "Watsonx LLM integration (llama-4-maverick)",
+    "Automated CodeModule & Subscription deployment",
+    "GraphQL-driven schema provisioning (property templates, document classes)"
+  ],
+  "links": [
+    {
+      "label": "Lab Guide",
+      "url": "https://github.com/MalekJabri/CP4AAccelerator/blob/main/demos/ContentCortex/Lab%20-%20Content%20Cortex%20v1.pdf"
+    }
+  ]
+}

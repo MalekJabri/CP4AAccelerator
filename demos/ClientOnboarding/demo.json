@@ -1,0 +1,24 @@
+{
+  "_schema": "demo/v2",
+  "id": "ClientOnboarding",
+  "title": "Client Onboarding",
+  "description": "The flagship end-to-end solution showcasing the full breadth of IBM Cloud Pak for Business Automation — workflow automation, business rules, content management, and process analytics — all in a single scenario.",
+  "type": "custom",
+  "supportTeam": "#dba-swat-asset-qna",
+  "enabled": true,
+  "logs": true,
+  "autoUpdate": false,
+  "configmap": "client-onboarding-information",
+  "badge": "Featured",
+  "highlights": [
+    "Full CP4BA showcase: BAW, ODM, FileNet, BAI",
+    "Starter and Enterprise deployment variants",
+    "Customer identification and KYC workflow",
+    "Business rules for onboarding decisions (ODM)",
+    "Process analytics and monitoring (BAI)"
+  ],
+  "links": [
+    { "label": "Client Onboarding Desktop", "url": "/icn/navigator/?desktop=ClientOnboarding" },
+    { "label": "BAI",                        "url": "/bai-bpc" }
+  ]
+}

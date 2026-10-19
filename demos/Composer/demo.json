@@ -1,0 +1,17 @@
+{
+  "_schema": "demo/v2",
+  "id": "Composer",
+  "title": "Composer",
+  "description": "A reusable integration asset that creates documents, sends emails and SMS messages, triggers DocuSign for e-signatures, and fires external events — streamlining communication and workflow hand-offs across CP4BA solutions.",
+  "type": "custom",
+  "supportTeam": "Malek Jabri",
+  "enabled": true,
+  "logs": true,
+  "autoUpdate": false,
+  "highlights": [
+    "Document generation from templates",
+    "Email and SMS dispatch",
+    "DocuSign e-signature integration",
+    "External event triggering"
+  ]
+}

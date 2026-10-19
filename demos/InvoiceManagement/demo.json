@@ -1,0 +1,18 @@
+{
+  "_schema": "demo/v2",
+  "id": "InvoiceManagement",
+  "title": "Invoice Management",
+  "description": "Automated invoice processing workflow powered by IBM BAW and Watsonx AI. Captures, validates, and routes invoices for approval — reducing manual effort and accelerating payment cycles.",
+  "type": "baw",
+  "supportTeam": "Malek Jabri",
+  "enabled": true,
+  "logs": false,
+  "autoUpdate": false,
+  "badge": "Coming Soon",
+  "highlights": [
+    "AI-assisted invoice data extraction",
+    "Automated approval routing (BAW)",
+    "Exception handling and escalation workflow",
+    "Composer integration for supplier notifications"
+  ]
+}
