@@ -1,3 +1,21 @@
+mutation CreatePT_GenAIClassifConfidence {
+  admCreatePropertyTemplate(
+    repositoryIdentifier: "OS1"
+    dataType: DOUBLE
+    propertyTemplateProperties: {
+      symbolicName: "GenAIClassifConfidence"
+      cardinality: SINGLE
+      displayNames: {
+        replace: [{ localeName: "en-us", localizedText: "Classification Confidence" }]
+      }
+
+    }
+  ) {
+    id
+    symbolicName
+  }
+}
+
 mutation CreatePT_IBKDocumentType {
   admCreatePropertyTemplate(
     repositoryIdentifier: "OS1"

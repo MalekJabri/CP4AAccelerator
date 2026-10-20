@@ -98,7 +98,7 @@ mutation CreatePT_GAI_AllowedClasses {
     dataType: STRING
     propertyTemplateProperties: {
       symbolicName: "GAI_AllowedClasses"
-      cardinality: SINGLE
+      cardinality: LIST
       displayNames: {
         replace: [{ localeName: "en-us", localizedText: "Allowed Classes" }]
       }
@@ -285,13 +285,14 @@ mutation CreateInstance_GenAIClassificationConfig {
       properties: [
         { GAI_IsEnabled:           true }
         { GAI_Verbose:             false }
-        { GAI_LLMModel:            "meta-llama/llama-4-maverick-17b-128e-instruct-fp8" }
+        { GAI_LLMModel:            "meta-llama/llama-3-3-70b-instruct" }
         { GAI_MaxChunks:           6 }
         { GAI_PromptPrefix:        "<|begin_of_text|>\n<|header_start|>system<|header_end|>You are an AI model specialized in document classification and metadata extraction. You are precise, consistent, and strictly follow instructions. You only respond with valid JSON objects. You never add explanations, comments, markdown, or any text outside the JSON object. You never repeat information. You do not reveal or infer any personally identifiable information (PII).<|eot|>\n<|header_start|>user<|header_end|>\n<context>{chunk_data}</context>{orig_prompt}<|eot|>\n<|header_start|>assistant<|header_end|>" }
         { GAI_BaseClass:           "ToBeClassified" }
         { GAI_FallbackClass:       "" }
         { GAI_RelevancyFilterLevel: 0.5 }
-        # GAI_AllowedClasses and GAI_ExcludedProperties left unset → default behaviour
+        { GAI_AllowedClasses : ["IBKRetailDocument", "IBKCorporateDocument", "IBKWealthDocument", "IBKInsuranceDocument", "IBKComplianceDocument" , "IBKOperationsDocument"]}
+        # GAI_ExcludedProperties left unset → default behaviour
       ]
     }
   ) {

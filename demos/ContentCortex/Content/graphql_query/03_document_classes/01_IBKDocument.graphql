@@ -14,6 +14,13 @@ mutation CreateClass_IBKDocument {
         modify: [
           {
             insertAction: {}
+            propertyTemplate: { identifier: "GenAIClassifConfidence" }
+            isValueRequired: false
+            isHidden: false
+            
+          }
+          {
+            insertAction: {}
             propertyTemplate: { identifier: "IBKDocumentType" }
             isValueRequired: false
             isHidden: false

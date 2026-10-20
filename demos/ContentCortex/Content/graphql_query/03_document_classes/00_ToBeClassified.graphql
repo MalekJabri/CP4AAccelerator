@@ -20,6 +20,17 @@ mutation CreateClass_ToBeClassified {
       descriptiveTexts: {
         replace: [{ localeName: "en-us", localizedText: "Staging class for documents awaiting GenAI classification" }]
       }
+       propertyDefinitions: {
+        modify: [
+          {
+            insertAction: {}
+            propertyTemplate: { identifier: "GenAIClassifConfidence" }
+            isValueRequired: false
+            isHidden: false
+            
+          }
+          ]
+        }
     }
   ) {
     className
