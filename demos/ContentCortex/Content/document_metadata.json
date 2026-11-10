@@ -4,7 +4,7 @@
   "documents": [
 
     {
-      "path": "Insurance & Banking/Retail Banking/Loan Origination/Hans Müller — LN-2024-00142/01 – Application/IBK-RETAIL-01_Personal-Loan-Application_Hans-Mueller.pdf",
+      "path": "Retail Banking/Loan Origination/Hans Müller — LN-2024-00142/01 – Application/IBK-RETAIL-01_Personal-Loan-Application_Hans-Mueller.pdf",
       "documentClass": "IBKRetailDocument",
       "attributes": {
         "IBKRetailDocType": "Other",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "path": "Insurance & Banking/Retail Banking/Loan Origination/Hans Müller — LN-2024-00142/02 – Income & Employment/IBK-RETAIL-01_Employment-Certificate_Siemens-AG.pdf",
+      "path": "Retail Banking/Loan Origination/Hans Müller — LN-2024-00142/02 – Income & Employment/IBK-RETAIL-01_Employment-Certificate_Siemens-AG.pdf",
       "documentClass": "IBKRetailDocument",
       "attributes": {
         "IBKRetailDocType": "Employment Certificate",
@@ -26,7 +26,7 @@
       }
     },
     {
-      "path": "Insurance & Banking/Retail Banking/Loan Origination/Hans Müller — LN-2024-00142/03 – Credit Assessment/IBK-RETAIL-01_Credit-Bureau-Report_Hans-Mueller.pdf",
+      "path": "Retail Banking/Loan Origination/Hans Müller — LN-2024-00142/03 – Credit Assessment/IBK-RETAIL-01_Credit-Bureau-Report_Hans-Mueller.pdf",
       "documentClass": "IBKRetailDocument",
       "attributes": {
         "IBKRetailDocType": "Credit Bureau Report",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "path": "Insurance & Banking/Retail Banking/Loan Origination/Hans Müller — LN-2024-00142/05 – Approved Loan Documents/IBK-RETAIL-01_Personal-Loan-Agreement_Hans-Mueller.pdf",
+      "path": "Retail Banking/Loan Origination/Hans Müller — LN-2024-00142/05 – Approved Loan Documents/IBK-RETAIL-01_Personal-Loan-Agreement_Hans-Mueller.pdf",
       "documentClass": "IBKRetailDocument",
       "attributes": {
         "IBKRetailDocType": "Personal Loan Agreement",
@@ -50,7 +50,7 @@
     },
 
     {
-      "path": "Insurance & Banking/Retail Banking/Mortgages/María García — LN-2024-00201/01 – Application/IBK-RETAIL-02_Mortgage-Application_Maria-Garcia.pdf",
+      "path": "Retail Banking/Mortgages/María García — LN-2024-00201/01 – Application/IBK-RETAIL-02_Mortgage-Application_Maria-Garcia.pdf",
       "documentClass": "IBKRetailDocument",
       "attributes": {
         "IBKRetailDocType": "Mortgage Deed",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "path": "Insurance & Banking/Retail Banking/Mortgages/María García — LN-2024-00201/02 – Property Valuation/IBK-RETAIL-02_Property-Valuation-Report_Calle-Mayor-15.pdf",
+      "path": "Retail Banking/Mortgages/María García — LN-2024-00201/02 – Property Valuation/IBK-RETAIL-02_Property-Valuation-Report_Calle-Mayor-15.pdf",
       "documentClass": "IBKRetailDocument",
       "attributes": {
         "IBKRetailDocType": "Other",
@@ -76,7 +76,7 @@
     },
 
     {
-      "path": "Insurance & Banking/Retail Banking/KYC & AML/Sophie Martin — CUS-2024-00389/Identification Documents/IBK-RETAIL-03_KYC-Onboarding-Form_Sophie-Martin.pdf",
+      "path": "Retail Banking/KYC & AML/Sophie Martin — CUS-2024-00389/Identification Documents/IBK-RETAIL-03_KYC-Onboarding-Form_Sophie-Martin.pdf",
       "documentClass": "IBKRetailDocument",
       "attributes": {
         "IBKRetailDocType": "KYC Form",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "path": "Insurance & Banking/Retail Banking/KYC & AML/Sophie Martin — CUS-2024-00389/AML Screening/IBK-RETAIL-03_AML-Screening-Report_Sophie-Martin.pdf",
+      "path": "Retail Banking/KYC & AML/Sophie Martin — CUS-2024-00389/AML Screening/IBK-RETAIL-03_AML-Screening-Report_Sophie-Martin.pdf",
       "documentClass": "IBKRetailDocument",
       "attributes": {
         "IBKRetailDocType": "AML Screening Report",
@@ -100,7 +100,7 @@
     },
 
     {
-      "path": "Insurance & Banking/Retail Banking/Account Statements/James Wilson/2024/IBK-RETAIL-04_Account-Statement_March-2024_James-Wilson.pdf",
+      "path": "Retail Banking/Account Statements/James Wilson/2024/IBK-RETAIL-04_Account-Statement_March-2024_James-Wilson.pdf",
       "documentClass": "IBKRetailDocument",
       "attributes": {
         "IBKRetailDocType": "Account Statement",
@@ -114,7 +114,7 @@
     },
 
     {
-      "path": "Insurance & Banking/Corporate & Institutional Banking/Loan & Credit Files/Meridian Industrials GmbH — FAC-2024-0077/01 – Term Sheet & Mandate/IBK-CORP-01_Term-Sheet_Meridian-Industrials.pdf",
+      "path": "Corporate & Institutional Banking/Loan & Credit Files/Meridian Industrials GmbH — FAC-2024-0077/01 – Term Sheet & Mandate/IBK-CORP-01_Term-Sheet_Meridian-Industrials.pdf",
       "documentClass": "IBKCorporateDocument",
       "attributes": {
         "IBKCorpDocType": "Syndicated Loan Agreement",
@@ -129,7 +129,7 @@
     },
 
     {
-      "path": "Insurance & Banking/Corporate & Institutional Banking/Trade Finance/Iberia Export SA/Letters of Credit/IBK-CORP-02_LC-Application_Iberia-Export-SA.pdf",
+      "path": "Corporate & Institutional Banking/Trade Finance/Iberia Export SA/Letters of Credit/IBK-CORP-02_LC-Application_Iberia-Export-SA.pdf",
       "documentClass": "IBKCorporateDocument",
       "attributes": {
         "IBKCorpDocType": "Letter of Credit",
@@ -143,7 +143,7 @@
     },
 
     {
-      "path": "Insurance & Banking/Corporate & Institutional Banking/Capital Markets/Trade Confirmations/2024/IBK-CORP-03_IRS-Trade-Confirmation_Nexum-Asset-Management.pdf",
+      "path": "Corporate & Institutional Banking/Capital Markets/Trade Confirmations/2024/IBK-CORP-03_IRS-Trade-Confirmation_Nexum-Asset-Management.pdf",
       "documentClass": "IBKCorporateDocument",
       "attributes": {
         "IBKCorpDocType": "Trade Confirmation",
@@ -158,7 +158,7 @@
     },
 
     {
-      "path": "Insurance & Banking/Corporate & Institutional Banking/KYC & EDD/Nexus Holdings SAS — CUS-2024-00512/EDD Reports/IBK-CORP-04_EDD-Report_Nexus-Holdings-SAS.pdf",
+      "path": "Corporate & Institutional Banking/KYC & EDD/Nexus Holdings SAS — CUS-2024-00512/EDD Reports/IBK-CORP-04_EDD-Report_Nexus-Holdings-SAS.pdf",
       "documentClass": "IBKCorporateDocument",
       "attributes": {
         "IBKCorpDocType": "EDD Report",
@@ -170,7 +170,7 @@
     },
 
     {
-      "path": "Insurance & Banking/Wealth Management/Private Clients/Alexander von Richter — PF-2024-0031/02 – Suitability & IPS/IBK-WM-01_Suitability-Assessment_Alexander-von-Richter.pdf",
+      "path": "Wealth Management/Private Clients/Alexander von Richter — PF-2024-0031/02 – Suitability & IPS/IBK-WM-01_Suitability-Assessment_Alexander-von-Richter.pdf",
       "documentClass": "IBKWealthDocument",
       "attributes": {
         "IBKWealthDocType": "Suitability Assessment",
@@ -183,7 +183,7 @@
       }
     },
     {
-      "path": "Insurance & Banking/Wealth Management/Private Clients/Alexander von Richter — PF-2024-0031/04 – Portfolio Reports/2024-Q4/IBK-WM-02_Quarterly-Portfolio-Report_Q4-2024_von-Richter.pdf",
+      "path": "Wealth Management/Private Clients/Alexander von Richter — PF-2024-0031/04 – Portfolio Reports/2024-Q4/IBK-WM-02_Quarterly-Portfolio-Report_Q4-2024_von-Richter.pdf",
       "documentClass": "IBKWealthDocument",
       "attributes": {
         "IBKWealthDocType": "Portfolio Report",
@@ -196,7 +196,7 @@
     },
 
     {
-      "path": "Insurance & Banking/Wealth Management/Trust & Estates/Beaumont Family Trust — TR-2024-0009/Trust Deed/IBK-WM-03_Trust-Deed_Beaumont-Family-Trust.pdf",
+      "path": "Wealth Management/Trust & Estates/Beaumont Family Trust — TR-2024-0009/Trust Deed/IBK-WM-03_Trust-Deed_Beaumont-Family-Trust.pdf",
       "documentClass": "IBKWealthDocument",
       "attributes": {
         "IBKWealthDocType": "Trust Deed",
@@ -210,7 +210,7 @@
     },
 
     {
-      "path": "Insurance & Banking/Insurance/Life Insurance/Policies/Karl Fischer — POL-LIFE-2024-00891/02 – Underwriting/IBK-INS-01_Underwriting-Memo_Karl-Fischer.pdf",
+      "path": "Insurance/Life Insurance/Policies/Karl Fischer — POL-LIFE-2024-00891/02 – Underwriting/IBK-INS-01_Underwriting-Memo_Karl-Fischer.pdf",
       "documentClass": "IBKInsuranceDocument",
       "attributes": {
         "IBKInsuranceDocType": "Underwriting Memo",
@@ -221,7 +221,7 @@
       }
     },
     {
-      "path": "Insurance & Banking/Insurance/Life Insurance/Policies/Karl Fischer — POL-LIFE-2024-00891/03 – Policy Documents/IBK-INS-01_Life-Insurance-Policy-Schedule_Karl-Fischer.pdf",
+      "path": "Insurance/Life Insurance/Policies/Karl Fischer — POL-LIFE-2024-00891/03 – Policy Documents/IBK-INS-01_Life-Insurance-Policy-Schedule_Karl-Fischer.pdf",
       "documentClass": "IBKInsuranceDocument",
       "attributes": {
         "IBKInsuranceDocType": "Policy Schedule",
@@ -238,7 +238,7 @@
       }
     },
     {
-      "path": "Insurance & Banking/Insurance/Life Insurance/Policies/Karl Fischer — POL-LIFE-2024-00892/03 – Policy Documents/IBK-INS-02_Life-Insurance-Policy-Schedule_Karl-Fischer.pdf",
+      "path": "Insurance/Life Insurance/Policies/Karl Fischer — POL-LIFE-2024-00892/03 – Policy Documents/IBK-INS-02_Life-Insurance-Policy-Schedule_Karl-Fischer.pdf",
       "documentClass": "IBKInsuranceDocument",
       "attributes": {
         "IBKInsuranceDocType": "Policy Schedule",
@@ -256,7 +256,7 @@
     },
 
     {
-      "path": "Insurance & Banking/Insurance/Property & Casualty/Claims/CLM-2024-04421 — POL-PC-2023-00654/Loss Report/IBK-INS-02_Motor-Claim-Form_Roberto-Fernandez.pdf",
+      "path": "Insurance/Property & Casualty/Claims/CLM-2024-04421 — POL-PC-2023-00654/Loss Report/IBK-INS-02_Motor-Claim-Form_Roberto-Fernandez.pdf",
       "documentClass": "IBKInsuranceDocument",
       "attributes": {
         "IBKInsuranceDocType": "Claim Form",
@@ -271,7 +271,7 @@
       }
     },
     {
-      "path": "Insurance & Banking/Insurance/Property & Casualty/Claims/CLM-2024-04421 — POL-PC-2023-00654/Settlement/IBK-INS-02_Settlement-Letter_CLM-2024-04421.pdf",
+      "path": "Insurance/Property & Casualty/Claims/CLM-2024-04421 — POL-PC-2023-00654/Settlement/IBK-INS-02_Settlement-Letter_CLM-2024-04421.pdf",
       "documentClass": "IBKInsuranceDocument",
       "attributes": {
         "IBKInsuranceDocType": "Settlement Letter",
@@ -285,7 +285,7 @@
     },
 
     {
-      "path": "Insurance & Banking/Insurance/Regulatory/Solvency II/2024/IBK-INS-04_Solvency-II-QRT-Narrative-Report_2024.pdf",
+      "path": "Insurance/Regulatory/Solvency II/2024/IBK-INS-04_Solvency-II-QRT-Narrative-Report_2024.pdf",
       "documentClass": "IBKInsuranceDocument",
       "attributes": {
         "IBKInsuranceDocType": "Solvency II Report",
@@ -297,7 +297,7 @@
     },
 
     {
-      "path": "Insurance & Banking/Compliance & Risk/Policy Register/GDPR — Data Protection Policy/IBK-COMP-01_Data-Protection-Policy_GDPR.pdf",
+      "path": "Compliance & Risk/Policy Register/GDPR — Data Protection Policy/IBK-COMP-01_Data-Protection-Policy_GDPR.pdf",
       "documentClass": "IBKComplianceDocument",
       "attributes": {
         "IBKCompDocType": "Regulatory Policy",
@@ -309,7 +309,7 @@
       }
     },
     {
-      "path": "Insurance & Banking/Compliance & Risk/AML & Sanctions/SAR Filings/2024/IBK-COMP-02_SAR-Filing_2024-00089.pdf",
+      "path": "Compliance & Risk/AML & Sanctions/SAR Filings/2024/IBK-COMP-02_SAR-Filing_2024-00089.pdf",
       "documentClass": "IBKComplianceDocument",
       "attributes": {
         "IBKCompDocType": "SAR Filing",
@@ -321,7 +321,7 @@
       }
     },
     {
-      "path": "Insurance & Banking/Compliance & Risk/Internal Audit/Retail Credit Review — AUD-2024-003/Findings/IBK-COMP-03_Internal-Audit-Report_Retail-Credit-AUD-2024-003.pdf",
+      "path": "Compliance & Risk/Internal Audit/Retail Credit Review — AUD-2024-003/Findings/IBK-COMP-03_Internal-Audit-Report_Retail-Credit-AUD-2024-003.pdf",
       "documentClass": "IBKComplianceDocument",
       "attributes": {
         "IBKCompDocType": "Internal Audit Report",
@@ -333,7 +333,7 @@
       }
     },
     {
-      "path": "Insurance & Banking/Compliance & Risk/GDPR & Data Privacy/Data Subject Requests/IBK-COMP-04_DSAR-Response_Charlotte-Bernard.pdf",
+      "path": "Compliance & Risk/GDPR & Data Privacy/Data Subject Requests/IBK-COMP-04_DSAR-Response_Charlotte-Bernard.pdf",
       "documentClass": "IBKComplianceDocument",
       "attributes": {
         "IBKCompDocType": "Data Subject Request",
@@ -347,7 +347,7 @@
     },
 
     {
-      "path": "Insurance & Banking/Operations/Vendor Management/CloudCore Technologies Ltd — VEN-2024-0041/Contracts/IBK-OPS-01_Master-Service-Agreement_CloudCore-Technologies.pdf",
+      "path": "Operations/Vendor Management/CloudCore Technologies Ltd — VEN-2024-0041/Contracts/IBK-OPS-01_Master-Service-Agreement_CloudCore-Technologies.pdf",
       "documentClass": "IBKOperationsDocument",
       "attributes": {
         "IBKOpsDocType": "Vendor Contract",
@@ -360,7 +360,7 @@
       }
     },
     {
-      "path": "Insurance & Banking/Operations/Vendor Management/CloudCore Technologies Ltd — VEN-2024-0041/Invoices/IBK-OPS-01_Invoice_Q2-2024_CloudCore-Technologies.pdf",
+      "path": "Operations/Vendor Management/CloudCore Technologies Ltd — VEN-2024-0041/Invoices/IBK-OPS-01_Invoice_Q2-2024_CloudCore-Technologies.pdf",
       "documentClass": "IBKOperationsDocument",
       "attributes": {
         "IBKOpsDocType": "Invoice",
@@ -373,7 +373,7 @@
       }
     },
     {
-      "path": "Insurance & Banking/Operations/Human Resources/Elena Moreau — EMP-2024-0817/Contract & Amendments/IBK-OPS-02_Employment-Contract_Elena-Moreau.pdf",
+      "path": "Operations/Human Resources/Elena Moreau — EMP-2024-0817/Contract & Amendments/IBK-OPS-02_Employment-Contract_Elena-Moreau.pdf",
       "documentClass": "IBKOperationsDocument",
       "attributes": {
         "IBKOpsDocType": "Employment Contract",
@@ -385,7 +385,7 @@
       }
     },
     {
-      "path": "Insurance & Banking/Operations/Legacy Migration/IBK-OPS-03_Legacy-Migration-Manifest_Operations-Archive.pdf",
+      "path": "Operations/Legacy Migration/IBK-OPS-03_Legacy-Migration-Manifest_Operations-Archive.pdf",
       "documentClass": "IBKOperationsDocument",
       "attributes": {
         "IBKOpsDocType": "Legacy Migration Manifest",
